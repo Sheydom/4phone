@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="english"
+  ><head
+    ><title>exported project</title
+    ><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Allerta:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./servicebookingpage.css" rel="stylesheet" /><div
+        class="servicebookingpage-container"
+        ><div class="servicebookingpage-servicebookingpage"
+          ><img
+            src="public/external/rectangle177511-dup.svg"
+            alt="Rectangle177511"
+            class="servicebookingpage-rectangle17"
+          /><div class="servicebookingpage-form-log-in"
+            ><div class="servicebookingpage-input-field1"
+              ><span class="servicebookingpage-text10">Email</span
+              ><input
+                type="text"
+                placeholder="Value"
+                class="servicebookingpage-input1" /></div
+            ><button class="servicebookingpage-button"
+              ><span class="servicebookingpage-text11">Book Now</span></button
+            ><div class="servicebookingpage-input-field2"
+              ><span class="servicebookingpage-text12">First Name</span
+              ><input
+                type="text"
+                placeholder="Value"
+                class="servicebookingpage-input2" /></div
+            ><div class="servicebookingpage-input-field3"
+              ><span class="servicebookingpage-text13">Last Name</span
+              ><input
+                type="text"
+                placeholder="Value"
+                class="servicebookingpage-input3" /></div
+            ><div class="servicebookingpage-input-field4"
+              ><span class="servicebookingpage-text14">Contact number</span
+              ><input
+                type="text"
+                placeholder="Value"
+                class="servicebookingpage-input4" /></div
+            ><div class="servicebookingpage-content"
+              ><div class="servicebookingpage-datepicker"
+                ><div class="servicebookingpage-label"
+                  ><span class="servicebookingpage-text15">Date</span></div
+                ><div class="servicebookingpage-field-content"
+                  ><img
+                    src="public/external/iconfieldcalendari751-m0k9.svg"
+                    alt="IconFieldCalendarI751"
+                    class="servicebookingpage-icon-field-calendar" /><span
+                    class="servicebookingpage-text16"
+                    >Choose Date</span
+                  ><img
+                    src="public/external/iconfieldcleari751-mq7e.svg"
+                    alt="IconFieldClearI751"
+                    class="servicebookingpage-icon-field-clear" /></div
+                ><div class="servicebookingpage-calendar1"
+                  ><div class="servicebookingpage-calendar2"
+                    ><div class="servicebookingpage-month"
+                      ><img
+                        src="public/external/iconcalendarprevi751-ghhf.svg"
+                        alt="IconCalendarPrevI751"
+                        class="servicebookingpage-icon-calendar-prev" /><span
+                        class="servicebookingpage-text17"
+                        >November 2025</span
+                      ><img
+                        src="public/external/iconcalendarnexti751-w3sq.svg"
+                        alt="IconCalendarNextI751"
+                        class="servicebookingpage-icon-calendar-next" /></div
+                    ><div class="servicebookingpage-weekday"
+                      ><div class="servicebookingpage-day10"
+                        ><span class="servicebookingpage-text18">Su</span></div
+                      ><div class="servicebookingpage-day11"
+                        ><span class="servicebookingpage-text19">Mo</span></div
+                      ><div class="servicebookingpage-day12"
+                        ><span class="servicebookingpage-text20">Tu</span></div
+                      ><div class="servicebookingpage-day13"
+                        ><span class="servicebookingpage-text21">We</span></div
+                      ><div class="servicebookingpage-day14"
+                        ><span class="servicebookingpage-text22">Th</span></div
+                      ><div class="servicebookingpage-day15"
+                        ><span class="servicebookingpage-text23">Fr</span></div
+                      ><div class="servicebookingpage-day16"
+                        ><span class="servicebookingpage-text24">Sa</span></div
+                      ></div
+                    ><div class="servicebookingpage-week1"
+                      ><div class="servicebookingpage-day17"
+                        ><span class="servicebookingpage-text25">30</span></div
+                      ><div class="servicebookingpage-day18"
+                        ><span class="servicebookingpage-text26">31</span></div
+                      ><div class="servicebookingpage-day19"></div
+                      ><div class="servicebookingpage-day20"></div
+                      ><div class="servicebookingpage-day21"></div
+                      ><div class="servicebookingpage-day22"></div
+                      ><div class="servicebookingpage-day23"></div></div
+                    ><div class="servicebookingpage-week2"
+                      ><div class="servicebookingpage-day24"></div
+                      ><div class="servicebookingpage-day25"></div
+                      ><div class="servicebookingpage-day26"></div
+                      ><div class="servicebookingpage-day27"></div
+                      ><div class="servicebookingpage-day28"
+                        ><span class="servicebookingpage-text27">10</span></div
+                      ><div class="servicebookingpage-day29"
+                        ><span class="servicebookingpage-text28">11</span></div
+                      ><div class="servicebookingpage-day30"
+                        ><span class="servicebookingpage-text29">12</span></div
+                      ></div
+                    ><div class="servicebookingpage-week3"
+                      ><div class="servicebookingpage-day31"
+                        ><span class="servicebookingpage-text30">13</span></div
+                      ><div class="servicebookingpage-day32"
+                        ><span class="servicebookingpage-text31">14</span></div
+                      ><div class="servicebookingpage-day33"
+                        ><span class="servicebookingpage-text32">15</span></div
+                      ><div class="servicebookingpage-day34"
+                        ><span class="servicebookingpage-text33">16</span></div
+                      ><div class="servicebookingpage-day35"
+                        ><span class="servicebookingpage-text34">17</span></div
+                      ><div class="servicebookingpage-day36"
+                        ><span class="servicebookingpage-text35">18</span></div
+                      ><div class="servicebookingpage-day37"
+                        ><span class="servicebookingpage-text36">19</span></div
+                      ></div
+                    ><div class="servicebookingpage-week4"
+                      ><div class="servicebookingpage-day38"
+                        ><span class="servicebookingpage-text37">20</span></div
+                      ><div class="servicebookingpage-day39"
+                        ><span class="servicebookingpage-text38">21</span></div
+                      ><div class="servicebookingpage-day40"
+                        ><span class="servicebookingpage-text39">22</span></div
+                      ><div class="servicebookingpage-day41"
+                        ><span class="servicebookingpage-text40">23</span></div
+                      ><div class="servicebookingpage-day42"
+                        ><span class="servicebookingpage-text41">24</span></div
+                      ><div class="servicebookingpage-day43"
+                        ><span class="servicebookingpage-text42">25</span></div
+                      ><div class="servicebookingpage-day44"
+                        ><span class="servicebookingpage-text43">26</span></div
+                      ></div
+                    ><div class="servicebookingpage-week5"
+                      ><div class="servicebookingpage-day45"
+                        ><span class="servicebookingpage-text44">27</span></div
+                      ><div class="servicebookingpage-day46"
+                        ><span class="servicebookingpage-text45">28</span></div
+                      ><div class="servicebookingpage-day47"
+                        ><span class="servicebookingpage-text46">29</span></div
+                      ><div class="servicebookingpage-day48"
+                        ><span class="servicebookingpage-text47">30</span></div
+                      ><div class="servicebookingpage-day49"></div
+                      ><div class="servicebookingpage-day50"></div
+                      ><div
+                        class="servicebookingpage-day51"
+                      ></div></div></div></div></div></div
+            ><div class="servicebookingpage-frame113"
+              ><span class="servicebookingpage-text48">Brand</span
+              ><div class="servicebookingpage-list"
+                ><button class="servicebookingpage-radio-button1"
+                  ><div class="servicebookingpage-input5"
+                    ><div class="servicebookingpage-checkboxbase1"
+                      ><div class="servicebookingpage-check"></div></div></div
+                  ><div class="servicebookingpage-textandsupportingtext"
+                    ><span class="servicebookingpage-text49 BodyLSemibold"
+                      >All</span
+                    ></div
+                  ></button
+                ><button class="servicebookingpage-radio-button2"
+                  ><div class="servicebookingpage-input6"
+                    ><div class="servicebookingpage-checkboxbase2"></div></div
+                  ><span class="servicebookingpage-text50">Apple</span></button
+                ><button class="servicebookingpage-radio-button3"
+                  ><div class="servicebookingpage-input7"
+                    ><div class="servicebookingpage-checkboxbase3"></div></div
+                  ><span class="servicebookingpage-text51"
+                    >Samsung</span
+                  ></button
+                ><button class="servicebookingpage-radio-button4"
+                  ><div class="servicebookingpage-input8"
+                    ><div class="servicebookingpage-checkboxbase4"></div></div
+                  ><span class="servicebookingpage-text52">Google</span></button
+                ></div
+              ></div
+            ><span class="servicebookingpage-text53"
+              >Search for earliest avaiable date</span
+            ><span class="servicebookingpage-text54"
+              >Please select Brand and click Search</span
+            ><div class="servicebookingpage-group10"
+              ><span class="servicebookingpage-text55">Search</span></div
+            ></div
+          ><img
+            src="public/external/image17512-3c89-400h.png"
+            alt="image17512"
+            class="servicebookingpage-image1"
+          /><div class="servicebookingpage-footer"
+            ><img
+              src="public/external/rectangle16i751-412b.svg"
+              alt="Rectangle16I751"
+              class="servicebookingpage-rectangle16" /><span
+              class="servicebookingpage-text56"
+              ><a href="faqpage.html"><span>FAQ</span></a><br /><a href="contactuspage.html"><span>Contact</span></a></span
+            ><a href="aboutuspage.html"><span class="servicebookingpage-text60">About Us</span
+            ></a><span class="servicebookingpage-text61"
+              >2025 4Phones inc. All rights Reserved</span
+            ><span class="servicebookingpage-text62"
+              ><a href="loginpage.html"><span>Sign in</span></a><br /><a href="registrationpage.html"><span>Register</span></a><br />
+                <a href="cartpage.html"><span
+                >Shopping cart</span
+              ></a></span
+            ><span class="servicebookingpage-text68 BodyCopy">HELP</span
+            ><span class="servicebookingpage-text69 BodyCopy">ABOUT US</span
+            ><span class="servicebookingpage-text70 BodyCopy">ACCOUNT</span
+            ><span class="servicebookingpage-text71 BodyCopy"
+              >FOLLOW 4Phones</span
+            ><img
+              src="public/external/vectori751-ncp.svg"
+              alt="VectorI751"
+              class="servicebookingpage-vector1" /><img
+              src="public/external/vectori751-3r9t.svg"
+              alt="VectorI751"
+              class="servicebookingpage-vector2" /><img
+              src="public/external/vectori751-ahxo.svg"
+              alt="VectorI751"
+              class="servicebookingpage-vector3" /><img
+              src="public/external/vectori751-3q6k.svg"
+              alt="VectorI751"
+              class="servicebookingpage-vector4" /><img
+              src="public/external/vectori751-57tc.svg"
+              alt="VectorI751"
+              class="servicebookingpage-vector5" /></div
+          ><div class="servicebookingpage-header"
+            ><img
+              src="public/external/rectangle8i751-7wi5-200h.png"
+              alt="Rectangle8I751"
+              class="servicebookingpage-rectangle8"
+            /><a href="loginpage.html"><span class="servicebookingpage-text72">Login</span
+                  ></a><a href="index.html"><span class="servicebookingpage-text73">Home</span
+            ></a><span class="servicebookingpage-text74"
+              ><span class="servicebookingpage-text75"> </span
+              ><a href="searchresultpage.html"><span class="servicebookingpage-text76">Search</span
+              ></a><span> </span></span
+            ><a href="cartpage.html"><span class="servicebookingpage-text78">Shopping-Cart</span
+            ></a><a href="servicebookingpage.html"><span class="servicebookingpage-text79">Service Booking</span
+            ><a href="registrationpage.html"><span class="servicebookingpage-text80">Registration</span
+            ><a href="aboutuspage.html"><span class="servicebookingpage-text81">About Us</span></a></div
+          ><div class="servicebookingpage-group9"
+            ><img
+              src="public/external/rectangle657512-n-200h.png"
+              alt="Rectangle657512"
+              class="servicebookingpage-rectangle65"
+            /><img
+              src="public/external/rectangle667512-wsb-200h.png"
+              alt="Rectangle667512"
+              class="servicebookingpage-rectangle66"
+            /><img
+              src="public/external/rectangle677512-7m6r-200h.png"
+              alt="Rectangle677512"
+              class="servicebookingpage-rectangle67"
+            /><img
+              src="public/external/rectangle687512-2rp7-200h.png"
+              alt="Rectangle687512"
+              class="servicebookingpage-rectangle68"
+            /><img
+              src="public/external/rectangle697512-17p2-200h.png"
+              alt="Rectangle697512"
+              class="servicebookingpage-rectangle69"
+            /><span class="servicebookingpage-text82">10:00 PM</span
+            ><span class="servicebookingpage-text83">12:00 PM</span
+            ><span class="servicebookingpage-text84">05:00 AM</span
+            ><span class="servicebookingpage-text85">10:00 AM</span
+            ><span class="servicebookingpage-text86">11:30 AM</span></div
+          ></div
+        ></div
+      ></div
+    >
+  </body></html
+>

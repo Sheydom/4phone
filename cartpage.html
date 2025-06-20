@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="english"
+  ><head
+    ><title>exported project</title
+    ><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Allerta:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./cartpage.css" rel="stylesheet" /><div
+        class="cartpage-container"
+        ><div class="cartpage-cartpage"
+          ><img
+            src="public/external/rectangle177518-y78.svg"
+            alt="Rectangle177518"
+            class="cartpage-rectangle17"
+          /><span class="cartpage-text10">Shopping Cart</span
+          ><div class="cartpage-content"
+            ><div class="cartpage-frame1984078137"
+              ><div class="cartpage-frame1984078173"
+                ><div class="cartpage-list1"
+                  ><div class="cartpage-group1"
+                    ><span class="cartpage-text11 BodyMSemibold"
+                      >Items Name</span
+                    ><div class="cartpage-liat"
+                      ><div class="cartpage-frame25"
+                        ><div class="cartpage-group2"
+                          ><div class="cartpage-frame191"
+                            ><img
+                              src="public/external/rectangle137518-dje4-200h.png"
+                              alt="Rectangle137518"
+                              class="cartpage-rectangle131" /><img
+                              src="public/external/image7518-7x6s-200h.png"
+                              alt="image7518"
+                              class="cartpage-image2" /></div
+                          ><div class="cartpage-group3"
+                            ><span class="cartpage-text12 BodyMMedium"
+                              >Sweet Green Seedless Grapes 1.5-2 lb</span
+                            ><div class="cartpage-price1"
+                              ><span class="cartpage-text13 BodyMSemibold"
+                                >$99.99</span
+                              ><span class="cartpage-text14">$99.99</span></div
+                            ></div
+                          ></div
+                        ><div class="cartpage-cta1"
+                          ><div class="cartpage-add-product-cart1"
+                            ><button class="cartpage-button1"
+                              ><div class="cartpage-trash1"
+                                ><div class="cartpage-vuesaxlineartrash"
+                                  ><div class="cartpage-trash2"
+                                    ><img
+                                      src="public/external/vectori751-4sa4.svg"
+                                      alt="VectorI751"
+                                      class="cartpage-vector10" /><img
+                                      src="public/external/vectori751-tcxk.svg"
+                                      alt="VectorI751"
+                                      class="cartpage-vector11" /><img
+                                      src="public/external/vectori751-t84.svg"
+                                      alt="VectorI751"
+                                      class="cartpage-vector12" /><img
+                                      src="public/external/vectori751-56v.svg"
+                                      alt="VectorI751"
+                                      class="cartpage-vector13" /><img
+                                      src="public/external/vectori751-thxg.svg"
+                                      alt="VectorI751"
+                                      class="cartpage-vector14" /></div></div></div></button
+                            ><button class="cartpage-button2"
+                              ><div class="cartpage-add1"
+                                ><div class="cartpage-vuesaxlinearadd1"
+                                  ><div class="cartpage-add2"
+                                    ><img
+                                      src="public/external/vectori751-0bo4.svg"
+                                      alt="VectorI751"
+                                      class="cartpage-vector15" /><img
+                                      src="public/external/vectori751-da7.svg"
+                                      alt="VectorI751"
+                                      class="cartpage-vector16" /></div></div></div></button></div
+                          ><button class="cartpage-button3"
+                            ><span class="cartpage-text15 ButtonSm"
+                              >Remove</span
+                            ></button
+                          ></div
+                        ><span class="cartpage-text16 BodyXLMedium"
+                          >$25.98</span
+                        ></div
+                      ><div class="cartpage-frame26"
+                        ><div class="cartpage-group4"
+                          ><div class="cartpage-frame192"
+                            ><img
+                              src="public/external/rectangle137519-ndx-200h.png"
+                              alt="Rectangle137519"
+                              class="cartpage-rectangle132" /><img
+                              src="public/external/image17519-8shf-200h.png"
+                              alt="image17519"
+                              class="cartpage-image11" /><img
+                              src="public/external/image7519-nx5-200w.png"
+                              alt="image7519"
+                              class="cartpage-image3" /></div
+                          ><div class="cartpage-group5"
+                            ><span class="cartpage-text17 BodyMMedium"
+                              >Sweet Green Seedless Grapes 1.5-2 lb</span
+                            ><div class="cartpage-price2"
+                              ><span class="cartpage-text18 BodyMSemibold"
+                                >$99.99</span
+                              ><span class="cartpage-text19">$99.99</span></div
+                            ></div
+                          ></div
+                        ><div class="cartpage-cta2"
+                          ><div class="cartpage-add-product-cart2"
+                            ><button class="cartpage-button4"
+                              ><div class="cartpage-minus1"
+                                ><div class="cartpage-vuesaxlinearminus"
+                                  ><div class="cartpage-minus2"
+                                    ><img
+                                      src="public/external/vectori751-pwac.svg"
+                                      alt="VectorI751"
+                                      class="cartpage-vector17" /></div></div></div></button
+                            ><span class="cartpage-text20">123</span
+                            ><button class="cartpage-button5"
+                              ><div class="cartpage-add3"
+                                ><div class="cartpage-vuesaxlinearadd2"
+                                  ><div class="cartpage-add4"
+                                    ><img
+                                      src="public/external/vectori751-huqr.svg"
+                                      alt="VectorI751"
+                                      class="cartpage-vector18" /><img
+                                      src="public/external/vectori751-0ip.svg"
+                                      alt="VectorI751"
+                                      class="cartpage-vector19" /></div></div></div></button></div
+                          ><button class="cartpage-button6"
+                            ><span class="cartpage-text21 ButtonSm"
+                              >Remove</span
+                            ></button
+                          ></div
+                        ><span class="cartpage-text22 BodyXLMedium"
+                          >$25.98</span
+                        ></div
+                      ></div
+                    ></div
+                  ></div
+                ></div
+              ></div
+            ><div class="cartpage-frame1984078177"
+              ><div class="cartpage-title-subtitle"
+                ><img
+                  src="public/external/image17519-k02q-400w.png"
+                  alt="image17519"
+                  class="cartpage-image12"
+                /><div class="cartpage-frame1984078180"
+                  ><div class="cartpage-frame64"
+                    ><img
+                      src="public/external/rectangle267519-7ls-200h.png"
+                      alt="Rectangle267519"
+                      class="cartpage-rectangle26" /><img
+                      src="public/external/rectangle277519-4t7q-200h.png"
+                      alt="Rectangle277519"
+                      class="cartpage-rectangle27" /></div
+                  ><span class="cartpage-text23 BodyMMedium"
+                    >Free delivery + saving $3.00 on this order Go to
+                  </span></div
+                ><div class="cartpage-frame1984078179"
+                  ><div class="cartpage-frame1984078178"
+                    ><div class="cartpage-frame67"
+                      ><span class="cartpage-text24 HeadingH8"
+                        >Order Summary</span
+                      ><div class="cartpage-frame66"
+                        ><div class="cartpage-list2"
+                          ><div class="cartpage-frame54"
+                            ><span class="cartpage-text25 BodyLMedium"
+                              >Items total</span
+                            ><span class="cartpage-text26 BodyLRegular"
+                              >$128.78</span
+                            ></div
+                          ><div class="cartpage-frame55"
+                            ><span class="cartpage-text27 BodyLMedium"
+                              >Delivery fee</span
+                            ><span class="cartpage-text28 BodyLRegular"
+                              >$5.78</span
+                            ></div
+                          ></div
+                        ></div
+                      ></div
+                    ><img
+                      src="public/external/divider7519-a0ut.svg"
+                      alt="Divider7519"
+                      class="cartpage-divider"
+                    /><div class="cartpage-frame50"
+                      ><span class="cartpage-text29">Subtotal</span
+                      ><span class="cartpage-text30">$134.56</span></div
+                    ></div
+                  ><button class="cartpage-button7"
+                           ><a href="paymentshippingpage.html"><div class="cartpage-frame63"><div class="cartpage-card1"
+                        ><div class="cartpage-vuesaxlinearcard"
+                          ><div class="cartpage-card2"
+                            ><img
+                              src="public/external/vectori751-38c.svg"
+                              alt="VectorI751"
+                              class="cartpage-vector20" /><img
+                              src="public/external/vectori751-9jcv.svg"
+                              alt="VectorI751"
+                              class="cartpage-vector21" /><img
+                              src="public/external/vectori751-24hq.svg"
+                              alt="VectorI751"
+                              class="cartpage-vector22" /><img
+                              src="public/external/vectori751-tlt.svg"
+                              alt="VectorI751"
+                              class="cartpage-vector23" /></div></div></div
+                      ><span class="cartpage-text31 ButtonLg"
+                        >Checkout</span
+                      ></div
+                    ><span class="cartpage-text32 ButtonLg"
+                      >$134.56</span
+                    ></a></button
+                  ></div
+                ></div
+              ></div
+            ></div
+          ><div class="cartpage-footer"
+            ><img
+              src="public/external/rectangle16i751-r3h.svg"
+              alt="Rectangle16I751"
+              class="cartpage-rectangle16" /><span class="cartpage-text33"
+              ><a href="faqpage.html"><span>FAQ</span></a><br /><a href="contactuspage.html"><span>Contact</span></a></span
+            ><a href="aboutuspage.html"><span class="cartpage-text37">About Us</span
+            ></a><span class="cartpage-text38"
+              >2025 4Phones inc. All rights Reserved</span
+            ><span class="cartpage-text39"
+              ><a href="loginpage.html"><span>Sign in</span></a><br /><a href="registrationpage.html"><span>Register</span></a><br /><a href="cartpage.html"><span
+                >Shopping cart</span
+              ></a></span
+            ><span class="cartpage-text45 BodyCopy">HELP</span
+            ><span class="cartpage-text46 BodyCopy">ABOUT US</span
+            ><span class="cartpage-text47 BodyCopy">ACCOUNT</span
+            ><span class="cartpage-text48 BodyCopy">FOLLOW 4Phones</span
+            ><img
+              src="public/external/vectori751-d4vk.svg"
+              alt="VectorI751"
+              class="cartpage-vector24" /><img
+              src="public/external/vectori751-x82h.svg"
+              alt="VectorI751"
+              class="cartpage-vector25" /><img
+              src="public/external/vectori751-j05k.svg"
+              alt="VectorI751"
+              class="cartpage-vector26" /><img
+              src="public/external/vectori751-h9fa.svg"
+              alt="VectorI751"
+              class="cartpage-vector27" /><img
+              src="public/external/vectori751-fkg.svg"
+              alt="VectorI751"
+              class="cartpage-vector28" /></div
+          ><div class="cartpage-header"
+            ><img
+              src="public/external/rectangle8i751-amvq-200h.png"
+              alt="Rectangle8I751"
+              class="cartpage-rectangle8"
+              /><a href="loginpage.html"><span class="cartpage-text49">Login</span
+            ></a><a href="index.html"><span class="cartpage-text50">Home</span
+            ></a><span class="cartpage-text51"
+              ><span class="cartpage-text52"> </span
+                ><a href="searchresultpage.html"><span class="cartpage-text53">Search</span></a><span> </span></span
+            ><a href="cartpage.html"><span class="cartpage-text55">Shopping-Cart</span
+                ></a><a href="servicebookingpage.html"><span class="cartpage-text56">Service Booking</span
+                    ></a><a href="registrationpage.html"><span class="cartpage-text57">Registration</span
+            ></a><a href="aboutuspage."><span class="cartpage-text58">About Us</span></a></div
+          ></div
+        ></div
+      ></div
+    >
+  </body></html
+>

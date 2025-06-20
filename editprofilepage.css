@@ -1,0 +1,984 @@
+.editprofilepage-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.editprofilepage-editprofilepage {
+  width: 100%;
+  height: 1403px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.editprofilepage-rectangle17 {
+  top: 75px;
+  left: -7px;
+  width: 1738px;
+  height: 1050px;
+  position: absolute;
+}
+ 
+.editprofilepage-rectangle18 {
+    display:flex;
+  top: 166px;
+  left: 63px;
+  width: 934px;
+  height: 909px;
+  position: absolute;
+  padding: 0px;
+}
+ 
+.editprofilepage-image1 {
+  top: 166px;
+  left: 1178px;
+  width: 383px;
+  height: 348px;
+  position: absolute;
+  border-radius: 15px;
+}
+ 
+.editprofilepage-text10 {
+  top: 185px;
+  left: 76px;
+  color: rgba(0, 0, 0, 1);
+  width: 241px;
+  height: auto;
+  position: absolute;
+  font-size: 45px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-firstname {
+  top: 300.2934265136719px;
+  left: 76.11945343017578px;
+  width: 421.12628173828125px;
+  height: 93.6646728515625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.editprofilepage-rectangle71 {
+  top: 32.95607376098633px;
+  left: 4.917383193969727e-7px;
+  width: 421px;
+  height: 61px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(132, 132, 132, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+ 
+.editprofilepage-text11 {
+  top: -0.0000133514404296875px;
+  left: 4.917383193969727e-7px;
+  color: rgba(27, 27, 27, 1);
+  width: 133px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-text12 {
+  top: 51.16864776611328px;
+  left: 28.07508659362793px;
+  color: rgba(132, 132, 132, 1);
+  width: 85px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-city {
+  top: 737.3952026367188px;
+  left: 76.11945343017578px;
+  width: 421.12628173828125px;
+  height: 93.66470336914062px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.editprofilepage-rectangle72 {
+  top: 32.95609664916992px;
+  left: 4.917383193969727e-7px;
+  width: 421px;
+  height: 61px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(132, 132, 132, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+ 
+.editprofilepage-text13 {
+  top: 0.000006943941116333008px;
+  left: 4.917383193969727e-7px;
+  color: rgba(27, 27, 27, 1);
+  width: 48px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-text14 {
+  top: 51.168670654296875px;
+  left: 28.07508659362793px;
+  color: rgba(132, 132, 132, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-keyboardarrowdown1 {
+  top: 42.49601364135742px;
+  left: 357.6973876953125px;
+  width: 50px;
+  height: 42px;
+  position: absolute;
+}
+ 
+.editprofilepage-state {
+  top: 737.3952026367188px;
+  left: 560.6746215820312px;
+  width: 426.32537841796875px;
+  height: 93.66470336914062px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.editprofilepage-rectangle81 {
+  top: 32.95609664916992px;
+  left: 0.000008672475814819336px;
+  width: 426px;
+  height: 61px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(132, 132, 132, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+ 
+.editprofilepage-text15 {
+  top: 0.000006943941116333008px;
+  left: 0.000008672475814819336px;
+  color: rgba(27, 27, 27, 1);
+  width: 65px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-text16 {
+  top: 51.168670654296875px;
+  left: 28.42167854309082px;
+  color: rgba(132, 132, 132, 1);
+  width: 87px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-keyboardarrowdown2 {
+  top: 42.49601364135742px;
+  left: 360.00811767578125px;
+  width: 51px;
+  height: 42px;
+  position: absolute;
+}
+ 
+.editprofilepage-email {
+  top: 409.56884765625px;
+  left: 76.11945343017578px;
+  width: 907.7611083984375px;
+  height: 93.66470336914062px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.editprofilepage-rectangle73 {
+  top: 32.95610427856445px;
+  left: 4.917383193969727e-7px;
+  width: 908px;
+  height: 61px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(132, 132, 132, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+ 
+.editprofilepage-text17 {
+  top: 0.000014632940292358398px;
+  left: 4.917383193969727e-7px;
+  color: rgba(27, 27, 27, 1);
+  width: 287px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-text18 {
+  top: 51.168678283691406px;
+  left: 28.171894073486328px;
+  color: rgba(132, 132, 132, 1);
+  width: 424px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-group81 {
+  top: 47.699615478515625px;
+  left: 848.287109375px;
+  width: 36.8399658203125px;
+  height: 30.902545928955078px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.editprofilepage-rectangle91 {
+  top: 5.150447368621826px;
+  left: 0.000012151481314504053px;
+  width: 31px;
+  height: 26px;
+  position: absolute;
+  border-radius: 5px;
+}
+ 
+.editprofilepage-check1 {
+  top: 0px;
+  left: 0px;
+  width: 37px;
+  height: 31px;
+  position: absolute;
+}
+ 
+.editprofilepage-password {
+  top: 846.670654296875px;
+  left: 76.11945343017578px;
+  width: 910.8805541992188px;
+  height: 93.66470336914062px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.editprofilepage-rectangle74 {
+  top: 32.956092834472656px;
+  left: 4.917383193969727e-7px;
+  width: 911px;
+  height: 61px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(132, 132, 132, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+ 
+.editprofilepage-text19 {
+  top: 0.000004380941390991211px;
+  left: 4.917383193969727e-7px;
+  color: rgba(27, 27, 27, 1);
+  width: 287px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-text20 {
+  top: 51.16866683959961px;
+  left: 28.171560287475586px;
+  color: rgba(132, 132, 132, 1);
+  width: 424px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-group82 {
+  top: 47.69960403442383px;
+  left: 848.277099609375px;
+  width: 36.83953094482422px;
+  height: 30.902545928955078px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.editprofilepage-rectangle92 {
+  top: 5.150467395782471px;
+  left: 0.000027288755518384278px;
+  width: 31px;
+  height: 26px;
+  position: absolute;
+  border-radius: 5px;
+}
+ 
+.editprofilepage-check2 {
+  top: 0px;
+  left: 0px;
+  width: 37px;
+  height: 31px;
+  position: absolute;
+}
+ 
+.editprofilepage-address1 {
+  top: 518.8442993164062px;
+  left: 76.11945343017578px;
+  width: 910.8805541992188px;
+  height: 93.66470336914062px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.editprofilepage-rectangle75 {
+  top: 32.95610046386719px;
+  left: 4.917383193969727e-7px;
+  width: 911px;
+  height: 61px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(132, 132, 132, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+ 
+.editprofilepage-text21 {
+  top: 0.000012055039405822754px;
+  left: 4.917383193969727e-7px;
+  color: rgba(27, 27, 27, 1);
+  width: 288px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-text22 {
+  top: 51.16867446899414px;
+  left: 28.26871109008789px;
+  color: rgba(132, 132, 132, 1);
+  width: 425px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-address2 {
+  top: 628.1197509765625px;
+  left: 76.11945343017578px;
+  width: 910.8805541992188px;
+  height: 93.66470336914062px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.editprofilepage-rectangle76 {
+  top: 32.95609664916992px;
+  left: 4.917383193969727e-7px;
+  width: 911px;
+  height: 61px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(132, 132, 132, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+ 
+.editprofilepage-text23 {
+  top: 0.000009499490261077881px;
+  left: 4.917383193969727e-7px;
+  color: rgba(27, 27, 27, 1);
+  width: 288px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-text24 {
+  top: 51.168670654296875px;
+  left: 28.26871109008789px;
+  color: rgba(132, 132, 132, 1);
+  width: 425px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-lastname {
+  top: 300.2934265136719px;
+  left: 563.7940673828125px;
+  width: 423.2059020996094px;
+  height: 93.6646728515625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.editprofilepage-rectangle82 {
+  top: 32.95607376098633px;
+  left: 0.000016808509826660156px;
+  width: 423px;
+  height: 61px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(132, 132, 132, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+ 
+.editprofilepage-text25 {
+  top: -0.0000133514404296875px;
+  left: 0.000016808509826660156px;
+  color: rgba(27, 27, 27, 1);
+  width: 132px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-text26 {
+  top: 51.16864776611328px;
+  left: 28.213773727416992px;
+  color: rgba(132, 132, 132, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-group9 {
+  top: 986.3004150390625px;
+  left: 73px;
+  width: 187.167236328125px;
+  height: 47.69960021972656px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.editprofilepage-rectangle101 {
+  top: -0.00001582503318786621px;
+  left: 0px;
+  width: 187px;
+  height: 48px;
+  position: absolute;
+  border-color: rgba(255, 111, 8, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+ 
+.editprofilepage-text27 {
+  top: 9.539904594421387px;
+  left: 48.87144470214844px;
+  color: rgba(255, 111, 8, 1);
+  width: 89px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-group10 {
+  top: 986.3004150390625px;
+  left: 301.75994873046875px;
+  width: 187.167236328125px;
+  height: 47.69960021972656px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.editprofilepage-rectangle102 {
+  top: -0.00001582503318786621px;
+  left: 0.000005766749382019043px;
+  width: 187px;
+  height: 48px;
+  position: absolute;
+  border-radius: 5px;
+}
+ 
+.editprofilepage-text28 {
+  top: 9.539904594421387px;
+  left: 62.38908386230469px;
+  color: rgba(255, 255, 255, 1);
+  width: 63px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-header {
+  top: 0px;
+  left: 0px;
+  width: 1728px;
+  height: 75px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.editprofilepage-rectangle83 {
+  top: 0px;
+  left: 0px;
+  width: 1728px;
+  height: 75px;
+  position: absolute;
+}
+ 
+.editprofilepage-text29 {
+  top: 23px;
+  left: 133.51417541503906px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.editprofilepage-text30 {
+  top: 23px;
+  left: 28.816009521484375px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.editprofilepage-text31 {
+  top: 23.02630615234375px;
+  left: 231.4886016845703px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-text32 {
+  text-decoration: NONE;
+}
+ 
+.editprofilepage-text33 {
+  text-decoration: UNDERLINE;
+}
+ 
+.editprofilepage-text35 {
+  top: 23.02630615234375px;
+  left: 353.47637939453125px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.editprofilepage-text36 {
+  top: 23.02630615234375px;
+  left: 563.833251953125px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.editprofilepage-text37 {
+  top: 23.026315689086914px;
+  left: 1406.65478515625px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.editprofilepage-text38 {
+  top: 23.026315689086914px;
+  left: 1584.353515625px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.editprofilepage-footer {
+  top: 1125px;
+  left: -7px;
+  width: 1738px;
+  height: 278px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.editprofilepage-rectangle16 {
+  top: 0px;
+  left: 0px;
+  width: 1738px;
+  height: 278px;
+  position: absolute;
+}
+ 
+.editprofilepage-text39 {
+  top: 97.29393768310547px;
+  left: 394px;
+  color: rgba(255, 255, 255, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-text43 {
+  top: 95.24242401123047px;
+  left: 606px;
+  color: rgba(255, 255, 255, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-text44 {
+  top: 211.63938903808594px;
+  left: 698px;
+  color: rgba(164, 150, 150, 1);
+  width: 463px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-text45 {
+  top: 99.30000305175781px;
+  left: 139px;
+  color: rgba(255, 255, 255, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.editprofilepage-text51 {
+  top: 66.19999694824219px;
+  left: 392px;
+  color: rgba(205, 186, 186, 1);
+  width: 43px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+}
+ 
+.editprofilepage-text52 {
+  top: 66.19999694824219px;
+  left: 603px;
+  color: rgba(205, 186, 186, 1);
+  width: 92px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+}
+ 
+.editprofilepage-text53 {
+  top: 59.17878723144531px;
+  left: 136px;
+  color: rgba(205, 186, 186, 1);
+  width: 95px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+}
+ 
+.editprofilepage-text54 {
+  top: 59.17878723144531px;
+  left: 1185px;
+  color: rgba(255, 255, 255, 1);
+  width: 159px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+}
+ 
+.editprofilepage-vector1 {
+  top: 104.31515502929688px;
+  left: 1323px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+ 
+.editprofilepage-vector2 {
+  top: 104.31515502929688px;
+  left: 1260px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+ 
+.editprofilepage-vector3 {
+  top: 105.31818389892578px;
+  left: 1197px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+ 
+.editprofilepage-vector4 {
+  top: 212.69090270996094px;
+  left: 661px;
+  width: 28px;
+  height: 23px;
+  position: absolute;
+}
+ 
+.editprofilepage-vector5 {
+  top: 104px;
+  left: 1386px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}

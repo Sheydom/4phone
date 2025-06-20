@@ -1,0 +1,2114 @@
+.servicebookingpage-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.servicebookingpage-servicebookingpage {
+  width: 100%;
+  height: 1449px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-rectangle17 {
+  top: 75px;
+  left: 2px;
+  width: 1726px;
+  height: 1096px;
+  position: absolute;
+}
+ 
+.servicebookingpage-form-log-in {
+  gap: 72px;
+  top: 160px;
+  left: 89px;
+  width: 686px;
+  height: 931px;
+  display: flex;
+  padding: 24px;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 0.41999998688697815);
+  border-style: solid;
+  border-width: 6px;
+  border-radius: 8px;
+  background-color: rgba(160, 116, 56, 0.44999998807907104);
+}
+ 
+.servicebookingpage-input-field1 {
+  gap: 8px;
+  top: 656px;
+  left: 24px;
+  width: 638px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  flex-direction: column;
+}
+ 
+.servicebookingpage-text10 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-input1 {
+  color: rgba(179, 179, 179, 1);
+  display: flex;
+  padding: 12px 16px;
+  overflow: hidden;
+  font-size: 16px;
+  align-self: stretch;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Inter;
+  font-weight: 400;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-button {
+  gap: 8px;
+  top: 868px;
+  left: 24px;
+  width: 638px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(44, 44, 44, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(44, 44, 44, 1);
+}
+ 
+.servicebookingpage-text11 {
+  color: rgba(245, 245, 245, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-input-field2 {
+  gap: 8px;
+  top: 454px;
+  left: 24px;
+  width: 638px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.servicebookingpage-text12 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-input2 {
+  color: rgba(179, 179, 179, 1);
+  display: flex;
+  padding: 12px 16px;
+  overflow: hidden;
+  font-size: 16px;
+  align-self: stretch;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Inter;
+  font-weight: 400;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-input-field3 {
+  gap: 8px;
+  top: 548px;
+  left: 24px;
+  width: 638px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.servicebookingpage-text13 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-input3 {
+  color: rgba(179, 179, 179, 1);
+  display: flex;
+  padding: 12px 16px;
+  overflow: hidden;
+  font-size: 16px;
+  align-self: stretch;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Inter;
+  font-weight: 400;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-input-field4 {
+  gap: 8px;
+  top: 750px;
+  left: 24px;
+  width: 638px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.servicebookingpage-text14 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-input4 {
+  color: rgba(179, 179, 179, 1);
+  display: flex;
+  padding: 12px 16px;
+  overflow: hidden;
+  font-size: 16px;
+  align-self: stretch;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Inter;
+  font-weight: 400;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-content {
+  gap: 30px;
+  top: 104px;
+  left: 29px;
+  width: 250px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+ 
+.servicebookingpage-datepicker {
+  gap: 8px;
+  width: 250px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.servicebookingpage-label {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.servicebookingpage-text15 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 15px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-field-content {
+  gap: 8px;
+  display: flex;
+  padding: 8px 15px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(221, 221, 221, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-icon-field-calendar {
+  width: 16px;
+  height: 16px;
+}
+ 
+.servicebookingpage-text16 {
+  color: rgba(187, 187, 187, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-icon-field-clear {
+  width: 16px;
+  height: 16px;
+}
+ 
+.servicebookingpage-calendar1 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  border-color: rgba(225, 225, 225, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-calendar2 {
+  display: flex;
+  padding: 10px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.servicebookingpage-month {
+  width: 230px;
+  display: flex;
+  padding: 5px 0;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+ 
+.servicebookingpage-icon-calendar-prev {
+  width: 16px;
+  height: 16px;
+}
+ 
+.servicebookingpage-text17 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-icon-calendar-next {
+  width: 16px;
+  height: 16px;
+}
+ 
+.servicebookingpage-weekday {
+  width: 230px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.servicebookingpage-day10 {
+  gap: 10px;
+  width: 32.85714340209961px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text18 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day11 {
+  gap: 10px;
+  width: 32.85714340209961px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text19 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day12 {
+  gap: 10px;
+  width: 32.857139587402344px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text20 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day13 {
+  gap: 10px;
+  width: 32.857139587402344px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text21 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day14 {
+  gap: 10px;
+  width: 32.857139587402344px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text22 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day15 {
+  gap: 10px;
+  width: 32.857139587402344px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text23 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day16 {
+  gap: 10px;
+  width: 32.857139587402344px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text24 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-week1 {
+  width: 230px;
+  height: 32px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.servicebookingpage-day17 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text25 {
+  color: rgba(170, 170, 170, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day18 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text26 {
+  color: rgba(170, 170, 170, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day19 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-day20 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-day21 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-day22 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-day23 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-week2 {
+  width: 230px;
+  height: 32px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.servicebookingpage-day24 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-day25 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-day26 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-day27 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-day28 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text27 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day29 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text28 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day30 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text29 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-week3 {
+  width: 230px;
+  height: 32px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.servicebookingpage-day31 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text30 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day32 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text31 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day33 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text32 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day34 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text33 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day35 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text34 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day36 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text35 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day37 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+}
+ 
+.servicebookingpage-text36 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-week4 {
+  width: 230px;
+  height: 32px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.servicebookingpage-day38 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text37 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day39 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text38 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day40 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text39 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day41 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text40 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day42 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text41 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day43 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(47, 128, 237, 1);
+}
+ 
+.servicebookingpage-text42 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day44 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+}
+ 
+.servicebookingpage-text43 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-week5 {
+  width: 230px;
+  height: 32px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.servicebookingpage-day45 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text44 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day46 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text45 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day47 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text46 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day48 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text47 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 13px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-day49 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-day50 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-day51 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-frame113 {
+  top: 36px;
+  left: 569px;
+  width: 186px;
+  display: flex;
+  position: absolute;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.servicebookingpage-text48 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-list {
+  gap: 16px;
+  height: 74px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.servicebookingpage-radio-button1 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.servicebookingpage-input5 {
+  display: flex;
+  padding: 6px 0 0;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.servicebookingpage-checkboxbase1 {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(160, 116, 56, 0.44999998807907104);
+  border-style: solid;
+  border-width: 0.8999999761581421px;
+  border-radius: 8999.099609375px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-check {
+  top: 5.399993896484375px;
+  left: 5.3984375px;
+  width: 7px;
+  height: 7.199999809265137px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 11998.7998046875px;
+  background-color: rgba(160, 116, 56, 1);
+}
+ 
+.servicebookingpage-textandsupportingtext {
+  gap: 2px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.servicebookingpage-text49 {
+  color: rgba(13, 12, 13, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 22px;
+}
+ 
+.servicebookingpage-radio-button2 {
+  gap: 8px;
+  width: 186px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.servicebookingpage-input6 {
+  top: 0px;
+  left: 0px;
+  width: 18px;
+  height: 24px;
+  display: flex;
+  padding: 6px 0 0;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.servicebookingpage-checkboxbase2 {
+  top: 6px;
+  left: 0px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(240, 238, 240, 1);
+  border-style: solid;
+  border-width: 0.8999999761581421px;
+  border-radius: 8999.099609375px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text50 {
+  top: 2px;
+  left: 31px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 22px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-radio-button3 {
+  gap: 8px;
+  width: 186px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.servicebookingpage-input7 {
+  top: 0px;
+  left: 0px;
+  width: 18px;
+  height: 24px;
+  display: flex;
+  padding: 6px 0 0;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.servicebookingpage-checkboxbase3 {
+  top: 6px;
+  left: 0px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(240, 238, 240, 1);
+  border-style: solid;
+  border-width: 0.8999999761581421px;
+  border-radius: 8999.099609375px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text51 {
+  top: 2px;
+  left: 31px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 22px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-radio-button4 {
+  gap: 8px;
+  width: 186px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.servicebookingpage-input8 {
+  top: 0px;
+  left: 0px;
+  width: 18px;
+  height: 24px;
+  display: flex;
+  padding: 6px 0 0;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.servicebookingpage-checkboxbase4 {
+  top: 6px;
+  left: 0px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(240, 238, 240, 1);
+  border-style: solid;
+  border-width: 0.8999999761581421px;
+  border-radius: 8999.099609375px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.servicebookingpage-text52 {
+  top: 2px;
+  left: 31px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 22px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-text53 {
+  top: 31px;
+  left: 279px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-text54 {
+  top: 51px;
+  left: 279px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-group10 {
+  top: 210px;
+  left: 569px;
+  width: 56px;
+  height: 22px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(13, 220, 82, 1);
+}
+ 
+.servicebookingpage-text55 {
+  top: 1px;
+  left: 5px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-image1 {
+  top: 160px;
+  left: 1179px;
+  width: 383px;
+  height: 348px;
+  position: absolute;
+  border-radius: 15px;
+}
+ 
+.servicebookingpage-footer {
+  top: 1171px;
+  left: 0px;
+  width: 1728px;
+  height: 278px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.servicebookingpage-rectangle16 {
+  top: 0px;
+  left: 0px;
+  width: 1728px;
+  height: 278px;
+  position: absolute;
+}
+ 
+.servicebookingpage-text56 {
+  top: 97.29393768310547px;
+  left: 391.7330322265625px;
+  color: rgba(255, 255, 255, 1);
+  width: 135px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-text60 {
+  top: 95.24242401123047px;
+  left: 602.4729614257812px;
+  color: rgba(255, 255, 255, 1);
+  width: 135px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-text61 {
+  top: 211.63938903808594px;
+  left: 693.98388671875px;
+  color: rgba(164, 150, 150, 1);
+  width: 460px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-text62 {
+  top: 99.30000305175781px;
+  left: 138.20022583007812px;
+  color: rgba(255, 255, 255, 1);
+  width: 135px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-text68 {
+  top: 66.19999694824219px;
+  left: 391.7330322265625px;
+  color: rgba(205, 186, 186, 1);
+  width: 43px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+}
+ 
+.servicebookingpage-text69 {
+  top: 66.19999694824219px;
+  left: 599.530517578125px;
+  color: rgba(205, 186, 186, 1);
+  width: 91px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+}
+ 
+.servicebookingpage-text70 {
+  top: 59.17878723144531px;
+  left: 135.21749877929688px;
+  color: rgba(205, 186, 186, 1);
+  width: 94px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+}
+ 
+.servicebookingpage-text71 {
+  top: 59.17878723144531px;
+  left: 1178.1817626953125px;
+  color: rgba(255, 255, 255, 1);
+  width: 158px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+}
+ 
+.servicebookingpage-vector1 {
+  top: 104.31515502929688px;
+  left: 1315.3878173828125px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+ 
+.servicebookingpage-vector2 {
+  top: 104.31515502929688px;
+  left: 1252.750244140625px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+ 
+.servicebookingpage-vector3 {
+  top: 105.31818389892578px;
+  left: 1190.11279296875px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+ 
+.servicebookingpage-vector4 {
+  top: 213.69090270996094px;
+  left: 657.19677734375px;
+  width: 28px;
+  height: 23px;
+  position: absolute;
+}
+ 
+.servicebookingpage-vector5 {
+  top: 104px;
+  left: 1378.0252685546875px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+ 
+.servicebookingpage-header {
+  top: 0px;
+  left: 0px;
+  width: 1728px;
+  height: 75px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.servicebookingpage-rectangle8 {
+  top: 0px;
+  left: 0px;
+  width: 1728px;
+  height: 75px;
+  position: absolute;
+}
+ 
+.servicebookingpage-text72 {
+  top: 23px;
+  left: 133.51417541503906px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.servicebookingpage-text73 {
+  top: 23px;
+  left: 28.816009521484375px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.servicebookingpage-text74 {
+  top: 23.02630615234375px;
+  left: 231.4886016845703px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-text75 {
+  text-decoration: NONE;
+}
+ 
+.servicebookingpage-text76 {
+  text-decoration: UNDERLINE;
+}
+ 
+.servicebookingpage-text78 {
+  top: 23.02630615234375px;
+  left: 353.47637939453125px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.servicebookingpage-text79 {
+  top: 23.02630615234375px;
+  left: 563.833251953125px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.servicebookingpage-text80 {
+  top: 23.026315689086914px;
+  left: 1406.65478515625px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.servicebookingpage-text81 {
+  top: 23.026315689086914px;
+  left: 1584.353515625px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.servicebookingpage-group9 {
+  top: 463px;
+  left: 383px;
+  width: 382px;
+  height: 120px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.servicebookingpage-rectangle65 {
+  top: 0px;
+  left: 0px;
+  width: 96px;
+  height: 48px;
+  position: absolute;
+  border-radius: 10px;
+}
+ 
+.servicebookingpage-rectangle66 {
+  top: 0px;
+  left: 143px;
+  width: 96px;
+  height: 48px;
+  position: absolute;
+  border-radius: 10px;
+}
+ 
+.servicebookingpage-rectangle67 {
+  top: 0px;
+  left: 286px;
+  width: 96px;
+  height: 48px;
+  position: absolute;
+  border-radius: 10px;
+}
+ 
+.servicebookingpage-rectangle68 {
+  top: 72px;
+  left: 0px;
+  width: 96px;
+  height: 48px;
+  position: absolute;
+  border-radius: 10px;
+}
+ 
+.servicebookingpage-rectangle69 {
+  top: 72px;
+  left: 143px;
+  width: 96px;
+  height: 48px;
+  position: absolute;
+  border-radius: 10px;
+}
+ 
+.servicebookingpage-text82 {
+  top: 15px;
+  left: 17px;
+  color: rgba(55, 55, 55, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-text83 {
+  top: 15px;
+  left: 160px;
+  color: rgba(55, 55, 55, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-text84 {
+  top: 15px;
+  left: 302px;
+  color: rgba(55, 55, 55, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-text85 {
+  top: 87px;
+  left: 17px;
+  color: rgba(55, 55, 55, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.servicebookingpage-text86 {
+  top: 87px;
+  left: 160px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}

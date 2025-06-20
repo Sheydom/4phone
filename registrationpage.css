@@ -1,0 +1,786 @@
+.registrationpage-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.registrationpage-registrationpage {
+  width: 100%;
+  height: 1529px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.registrationpage-rectangle17 {
+  top: 75px;
+  left: 2px;
+  width: 1726px;
+  height: 1171px;
+  position: absolute;
+}
+ 
+.registrationpage-form-log-in {
+  gap: 72px;
+  top: 224px;
+  left: 136px;
+  width: 686px;
+  height: 782px;
+  display: flex;
+  padding: 24px;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 0.41999998688697815);
+  border-style: solid;
+  border-width: 6px;
+  border-radius: 8px;
+  background-color: rgba(160, 116, 56, 0.44999998807907104);
+}
+ 
+.registrationpage-input-field1 {
+  gap: 8px;
+  top: 320px;
+  left: 24px;
+  width: 638px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  flex-direction: column;
+}
+ 
+.registrationpage-text10 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.registrationpage-input1 {
+  color: rgba(179, 179, 179, 1);
+  display: flex;
+  padding: 12px 16px;
+  overflow: hidden;
+  font-size: 16px;
+  align-self: stretch;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Inter;
+  font-weight: 400;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.registrationpage-input-field2 {
+  gap: 8px;
+  top: 400px;
+  left: 24px;
+  width: 638px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  flex-direction: column;
+}
+ 
+.registrationpage-text11 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.registrationpage-input2 {
+  color: rgba(179, 179, 179, 1);
+  display: flex;
+  padding: 12px 16px;
+  overflow: hidden;
+  font-size: 16px;
+  align-self: stretch;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Inter;
+  font-weight: 400;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.registrationpage-input-field3 {
+  gap: 8px;
+  top: 481px;
+  left: 24px;
+  width: 638px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.registrationpage-text12 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.registrationpage-input3 {
+  color: rgba(179, 179, 179, 1);
+  display: flex;
+  padding: 12px 16px;
+  overflow: hidden;
+  font-size: 16px;
+  align-self: stretch;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Inter;
+  font-weight: 400;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.registrationpage-text13 {
+  top: 481px;
+  left: 24px;
+  color: rgba(30, 30, 30, 1);
+  width: 638px;
+  height: auto;
+  position: absolute;
+  flex-grow: 1;
+  font-size: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.registrationpage-button {
+  gap: 8px;
+  top: 577px;
+  left: 24px;
+  width: 638px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(44, 44, 44, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(44, 44, 44, 1);
+}
+ 
+.registrationpage-text14 {
+  color: rgba(245, 245, 245, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.registrationpage-input-field4 {
+  gap: 8px;
+  top: 14px;
+  left: 24px;
+  width: 638px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.registrationpage-text15 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.registrationpage-input4 {
+  color: rgba(179, 179, 179, 1);
+  display: flex;
+  padding: 12px 16px;
+  overflow: hidden;
+  font-size: 16px;
+  align-self: stretch;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Inter;
+  font-weight: 400;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.registrationpage-input-field5 {
+  gap: 8px;
+  top: 84px;
+  left: 24px;
+  width: 638px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.registrationpage-text16 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.registrationpage-input5 {
+  color: rgba(179, 179, 179, 1);
+  display: flex;
+  padding: 12px 16px;
+  overflow: hidden;
+  font-size: 16px;
+  align-self: stretch;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Inter;
+  font-weight: 400;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.registrationpage-input-field6 {
+  gap: 8px;
+  top: 155px;
+  left: 24px;
+  width: 638px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.registrationpage-text17 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.registrationpage-input6 {
+  color: rgba(179, 179, 179, 1);
+  display: flex;
+  padding: 12px 16px;
+  overflow: hidden;
+  font-size: 16px;
+  align-self: stretch;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Inter;
+  font-weight: 400;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.registrationpage-input-field7 {
+  gap: 8px;
+  top: 234px;
+  left: 24px;
+  width: 638px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.registrationpage-text18 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.registrationpage-input7 {
+  color: rgba(179, 179, 179, 1);
+  display: flex;
+  padding: 12px 16px;
+  overflow: hidden;
+  font-size: 16px;
+  align-self: stretch;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Inter;
+  font-weight: 400;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.registrationpage-group2 {
+  top: 653px;
+  left: 52px;
+  width: 519.6478271484375px;
+  height: 114.34761047363281px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.registrationpage-vector1 {
+  top: 50.99285888671875px;
+  left: 351.12799072265625px;
+  width: 65px;
+  height: 62px;
+  position: absolute;
+}
+ 
+.registrationpage-vector2 {
+  top: 50.99285888671875px;
+  left: 248.71563720703125px;
+  width: 65px;
+  height: 62px;
+  position: absolute;
+}
+ 
+.registrationpage-vector3 {
+  top: 52.5380859375px;
+  left: 146.3033447265625px;
+  width: 65px;
+  height: 62px;
+  position: absolute;
+}
+ 
+.registrationpage-vector4 {
+  top: 50.37481689453125px;
+  left: 454.6241455078125px;
+  width: 65px;
+  height: 62px;
+  position: absolute;
+}
+ 
+.registrationpage-text19 {
+  color: rgba(30, 30, 30, 1);
+  width: 247px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+ 
+.registrationpage-image1 {
+  top: 224px;
+  left: 1183px;
+  width: 383px;
+  height: 348px;
+  position: absolute;
+  border-radius: 15px;
+}
+ 
+.registrationpage-header {
+  top: 0px;
+  left: 0px;
+  width: 1728px;
+  height: 75px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.registrationpage-rectangle8 {
+  top: 0px;
+  left: 0px;
+  width: 1728px;
+  height: 75px;
+  position: absolute;
+}
+ 
+.registrationpage-text20 {
+  top: 23px;
+  left: 133.51417541503906px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.registrationpage-text21 {
+  top: 23px;
+  left: 28.816009521484375px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.registrationpage-text22 {
+  top: 23.02630615234375px;
+  left: 231.4886016845703px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.registrationpage-text23 {
+  text-decoration: NONE;
+}
+ 
+.registrationpage-text24 {
+  text-decoration: UNDERLINE;
+}
+ 
+.registrationpage-text26 {
+  top: 23.02630615234375px;
+  left: 353.47637939453125px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.registrationpage-text27 {
+  top: 23.02630615234375px;
+  left: 563.833251953125px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.registrationpage-text28 {
+  top: 23.026315689086914px;
+  left: 1406.65478515625px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.registrationpage-text29 {
+  top: 23.026315689086914px;
+  left: 1584.353515625px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.registrationpage-footer {
+  top: 1246px;
+  left: -5px;
+  width: 1738px;
+  height: 283px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.registrationpage-rectangle16 {
+  top: 0px;
+  left: 0px;
+  width: 1738px;
+  height: 283px;
+  position: absolute;
+}
+ 
+.registrationpage-text30 {
+  top: 99.04383087158203px;
+  left: 394px;
+  color: rgba(255, 255, 255, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.registrationpage-text34 {
+  top: 95.68563079833984px;
+  left: 606px;
+  color: rgba(255, 255, 255, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.registrationpage-text35 {
+  top: 215.4458465576172px;
+  left: 698px;
+  color: rgba(164, 150, 150, 1);
+  width: 463px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.registrationpage-text36 {
+  top: 101.08597564697266px;
+  left: 139px;
+  color: rgba(255, 255, 255, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.registrationpage-text42 {
+  top: 67.3906478881836px;
+  left: 390px;
+  color: rgba(205, 186, 186, 1);
+  width: 43px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+}
+ 
+.registrationpage-text43 {
+  top: 67.3906478881836px;
+  left: 603px;
+  color: rgba(205, 186, 186, 1);
+  width: 92px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+}
+ 
+.registrationpage-text44 {
+  top: 60.2431526184082px;
+  left: 136px;
+  color: rgba(205, 186, 186, 1);
+  width: 95px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+}
+ 
+.registrationpage-text45 {
+  top: 60.2431526184082px;
+  left: 1185px;
+  color: rgba(255, 255, 255, 1);
+  width: 159px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+}
+ 
+.registrationpage-vector5 {
+  top: 106.19132995605469px;
+  left: 1323px;
+  width: 40px;
+  height: 41px;
+  position: absolute;
+}
+ 
+.registrationpage-vector6 {
+  top: 106.19132995605469px;
+  left: 1260px;
+  width: 40px;
+  height: 41px;
+  position: absolute;
+}
+ 
+.registrationpage-vector7 {
+  top: 107.21239471435547px;
+  left: 1197px;
+  width: 40px;
+  height: 41px;
+  position: absolute;
+}
+ 
+.registrationpage-vector8 {
+  top: 216.80404663085938px;
+  left: 661px;
+  width: 28px;
+  height: 23px;
+  position: absolute;
+}
+ 
+.registrationpage-vector9 {
+  top: 105.8705062866211px;
+  left: 1386px;
+  width: 40px;
+  height: 41px;
+  position: absolute;
+}

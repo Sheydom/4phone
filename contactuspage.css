@@ -1,0 +1,726 @@
+.contactuspage-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contactuspage-contactuspage {
+  width: 100%;
+  height: 1533px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.contactuspage-rectangle17 {
+  top: 75px;
+  left: -2px;
+  width: 1728px;
+  height: 1122px;
+  position: absolute;
+}
+ 
+.contactuspage-form-log-in {
+  gap: 29px;
+  top: 426px;
+  left: 799px;
+  width: 811px;
+  height: 531px;
+  display: flex;
+  padding: 1px 24px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 0.41999998688697815);
+  border-style: solid;
+  border-width: 6px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(160, 116, 56, 0.44999998807907104);
+}
+ 
+.contactuspage-input-field1 {
+  gap: 8px;
+  top: 12px;
+  left: 24px;
+  width: 763px;
+  height: 48px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.contactuspage-text10 {
+  color: rgba(30, 30, 30, 1);
+  width: 763px;
+  height: auto;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactuspage-input1 {
+  color: rgba(179, 179, 179, 1);
+  width: 763px;
+  height: 40px;
+  display: flex;
+  padding: 0 16px;
+  z-index: 1;
+  overflow: hidden;
+  font-size: 16px;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Inter;
+  font-weight: 400;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.contactuspage-input-field2 {
+  gap: 8px;
+  top: 97px;
+  left: 24px;
+  width: 763px;
+  height: 70px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.contactuspage-text11 {
+  color: rgba(30, 30, 30, 1);
+  width: 763px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactuspage-input2 {
+  top: 30px;
+  left: 0px;
+  color: rgba(179, 179, 179, 1);
+  width: 763px;
+  height: 40px;
+  display: flex;
+  padding: 12px 16px;
+  overflow: hidden;
+  position: absolute;
+  font-size: 16px;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Inter;
+  font-weight: 400;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.contactuspage-input-field3 {
+  gap: 8px;
+  top: 185px;
+  left: 24px;
+  width: 763px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.contactuspage-text12 {
+  color: rgba(30, 30, 30, 1);
+  width: 763px;
+  height: auto;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactuspage-input3 {
+  color: rgba(179, 179, 179, 1);
+  width: 763px;
+  height: 40px;
+  display: flex;
+  padding: 12px 16px;
+  z-index: 1;
+  overflow: hidden;
+  font-size: 16px;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Inter;
+  font-weight: 400;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.contactuspage-text13 {
+  top: 302px;
+  left: 24px;
+  color: rgba(30, 30, 30, 1);
+  width: 763px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactuspage-input4 {
+  top: 338px;
+  left: 24px;
+  color: rgba(179, 179, 179, 1);
+  width: 763px;
+  height: 108px;
+  display: flex;
+  padding: 12px 16px;
+  overflow: hidden;
+  position: absolute;
+  font-size: 16px;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Inter;
+  font-weight: 400;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.contactuspage-button-group {
+  gap: 16px;
+  top: 475px;
+  left: 24px;
+  width: 763px;
+  height: 44px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.contactuspage-button {
+  gap: 8px;
+  position: absolute;
+  width:765px;
+  right:12px;
+  top:470px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: center;
+  border-color: rgba(44, 44, 44, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(44, 44, 44, 1);
+}
+ 
+.contactuspage-text14 {
+  color: rgba(245, 245, 245, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactuspage-footer {
+  top: 1197px;
+  left: -10px;
+  width: 1738px;
+  height: 337px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.contactuspage-rectangle16 {
+  top: 0px;
+  left: 0px;
+  width: 1738px;
+  height: 337px;
+  position: absolute;
+}
+ 
+.contactuspage-text15 {
+  top: 117.9426498413086px;
+  left: 394px;
+  color: rgba(255, 255, 255, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactuspage-text19 {
+  top: 113.27229309082031px;
+  left: 606px;
+  color: rgba(255, 255, 255, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactuspage-text20 {
+  top: 256.5556640625px;
+  left: 698px;
+  color: rgba(164, 150, 150, 1);
+  width: 463px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactuspage-text21 {
+  top: 120.37446594238281px;
+  left: 139px;
+  color: rgba(255, 255, 255, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactuspage-text27 {
+  top: 80.2496337890625px;
+  left: 391px;
+  color: rgba(205, 186, 186, 1);
+  width: 43px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+}
+ 
+.contactuspage-text28 {
+  top: 80.2496337890625px;
+  left: 603px;
+  color: rgba(205, 186, 186, 1);
+  width: 92px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+}
+ 
+.contactuspage-text29 {
+  top: 71.73831176757812px;
+  left: 136px;
+  color: rgba(205, 186, 186, 1);
+  width: 95px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+}
+ 
+.contactuspage-text30 {
+  top: 71.73831176757812px;
+  left: 1185px;
+  color: rgba(255, 255, 255, 1);
+  width: 159px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+}
+ 
+.contactuspage-vector1 {
+  top: 126.4539794921875px;
+  left: 1323px;
+  width: 40px;
+  height: 49px;
+  position: absolute;
+}
+ 
+.contactuspage-vector2 {
+  top: 126.4539794921875px;
+  left: 1260px;
+  width: 40px;
+  height: 49px;
+  position: absolute;
+}
+ 
+.contactuspage-vector3 {
+  top: 127.66988372802734px;
+  left: 1197px;
+  width: 40px;
+  height: 49px;
+  position: absolute;
+}
+ 
+.contactuspage-vector4 {
+  top: 258.22601318359375px;
+  left: 661px;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+}
+ 
+.contactuspage-vector5 {
+  top: 126.07194519042969px;
+  left: 1386px;
+  width: 40px;
+  height: 48px;
+  position: absolute;
+}
+ 
+.contactuspage-header {
+  top: 0px;
+  left: 0px;
+  width: 1728px;
+  height: 75px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.contactuspage-rectangle8 {
+  top: 0px;
+  left: 0px;
+  width: 1728px;
+  height: 75px;
+  position: absolute;
+}
+ 
+.contactuspage-text31 {
+  top: 23px;
+  left: 133.51417541503906px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.contactuspage-text32 {
+  top: 23px;
+  left: 28.816009521484375px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.contactuspage-text33 {
+  top: 23.02630615234375px;
+  left: 231.4886016845703px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactuspage-text34 {
+  text-decoration: NONE;
+}
+ 
+.contactuspage-text35 {
+  text-decoration: UNDERLINE;
+}
+ 
+.contactuspage-text37 {
+  top: 23.02630615234375px;
+  left: 353.47637939453125px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.contactuspage-text38 {
+  top: 23.02630615234375px;
+  left: 563.833251953125px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.contactuspage-text39 {
+  top: 23.026315689086914px;
+  left: 1406.65478515625px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.contactuspage-text40 {
+  top: 23.026315689086914px;
+  left: 1584.353515625px;
+  color: rgba(239, 228, 148, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.contactuspage-group1 {
+  top: 233px;
+  left: 219px;
+  width: 418px;
+  height: 380px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.contactuspage-image1 {
+  top: 0px;
+  left: 0px;
+  width: 418px;
+  height: 380px;
+  position: absolute;
+  border-radius: 15px;
+}
+ 
+.contactuspage-reviews {
+  gap: 64px;
+  top: 645px;
+  left: 215px;
+  width: 422px;
+  height: 312px;
+  display: flex;
+  padding: 24px;
+  overflow: hidden;
+  position: absolute;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(248, 247, 248, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 32px;
+  background-color: rgba(200, 178, 133, 1);
+}
+ 
+.contactuspage-frame69 {
+  gap: 24px;
+  width: 374px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.contactuspage-text41 {
+  color: rgba(13, 12, 13, 1);
+  height: auto;
+  font-size: 22px;
+  align-self: stretch;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 170.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactuspage-frame85 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.contactuspage-user {
+  gap: 4px;
+  height: 232px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.contactuspage-frame79 {
+  gap: 4px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.contactuspage-text42 {
+  color: rgba(73, 67, 73, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 170.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactuspage-text43 {
+  font-weight: 500;
+}
+ 
+.contactuspage-text45 {
+  font-weight: 500;
+}
+ 
+.contactuspage-text47 {
+  font-weight: 500;
+}
+ 
+.contactuspage-rectangle18 {
+  top: 233px;
+  left: 799px;
+  width: 811px;
+  height: 121px;
+  position: absolute;
+}
+ 
+.contactuspage-text50 {
+  top: 240px;
+  left: 875px;
+  color: rgba(245, 235, 155, 1);
+  width: 702px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 170.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}

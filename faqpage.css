@@ -1,0 +1,1074 @@
+.faqpage-container1 {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.faqpage-container2 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.faqpage-faqpage {
+  width: 100%;
+  height: 1559px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.faqpage-rectangle17 {
+  top: 79px;
+  left: 0px;
+  width: 1728px;
+  height: 1143px;
+  position: absolute;
+}
+ 
+.faqpage-text10 {
+  top: 212px;
+  left: 813px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 39.70000076293945px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Noto Serif;
+  font-weight: 400;
+  line-height: 60px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.faqpage-footer {
+  top: 1222px;
+  left: -10px;
+  width: 1738px;
+  height: 337px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.faqpage-rectangle16 {
+  top: 0px;
+  left: 0px;
+  width: 1738px;
+  height: 337px;
+  position: absolute;
+}
+ 
+.faqpage-text11 {
+  top: 117.9426498413086px;
+  left: 394px;
+  color: rgba(255, 255, 255, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.faqpage-text15 {
+  top: 110.27229309082031px;
+  left: 606px;
+  color: rgba(255, 255, 255, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.faqpage-text16 {
+  top: 256.5556640625px;
+  left: 698px;
+  color: rgba(164, 150, 150, 1);
+  width: 463px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.faqpage-text17 {
+  top: 120.37446594238281px;
+  left: 139px;
+  color: rgba(255, 255, 255, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.faqpage-text23 {
+  top: 80.2496337890625px;
+  left: 391px;
+  color: rgba(205, 186, 186, 1);
+  width: 43px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+}
+ 
+.faqpage-text24 {
+  top: 80.2496337890625px;
+  left: 603px;
+  color: rgba(205, 186, 186, 1);
+  width: 92px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+}
+ 
+.faqpage-text25 {
+  top: 71.73831176757812px;
+  left: 136px;
+  color: rgba(205, 186, 186, 1);
+  width: 95px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+}
+ 
+.faqpage-text26 {
+  top: 71.73831176757812px;
+  left: 1185px;
+  color: rgba(255, 255, 255, 1);
+  width: 159px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+}
+ 
+.faqpage-vector1 {
+  top: 126.4539794921875px;
+  left: 1323px;
+  width: 40px;
+  height: 49px;
+  position: absolute;
+}
+ 
+.faqpage-vector2 {
+  top: 126.4539794921875px;
+  left: 1260px;
+  width: 40px;
+  height: 49px;
+  position: absolute;
+}
+ 
+.faqpage-vector3 {
+  top: 127.66988372802734px;
+  left: 1197px;
+  width: 40px;
+  height: 49px;
+  position: absolute;
+}
+ 
+.faqpage-vector4 {
+  top: 257.22601318359375px;
+  left: 661px;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+}
+ 
+.faqpage-vector5 {
+  top: 126.07194519042969px;
+  left: 1386px;
+  width: 40px;
+  height: 48px;
+  position: absolute;
+}
+ 
+.faqpage-header1 {
+  top: 0px;
+  left: 0px;
+  width: 1728px;
+  height: 26px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.faqpage-group141 {
+  top: -111px;
+  left: 0px;
+  width: 1663px;
+  height: 10.05333423614502px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.faqpage-text27 {
+  top: 0.00000286102294921875px;
+  left: 100px;
+  color: rgba(239, 228, 148, 1);
+  width: 70px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.faqpage-text28 {
+  top: 0.00000286102294921875px;
+  color: rgba(239, 228, 148, 1);
+  width: 74px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.faqpage-text29 {
+  top: 0.00000286102294921875px;
+  left: 195px;
+  color: rgba(239, 228, 148, 1);
+  width: 95px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.faqpage-text30 {
+  text-decoration: NONE;
+}
+ 
+.faqpage-text31 {
+  text-decoration: UNDERLINE;
+}
+ 
+.faqpage-text33 {
+  top: 0.00000286102294921875px;
+  left: 311px;
+  color: rgba(239, 228, 148, 1);
+  width: 191px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.faqpage-text34 {
+  top: 0.00000286102294921875px;
+  left: 513px;
+  color: rgba(239, 228, 148, 1);
+  width: 207px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.faqpage-text35 {
+  top: 0.00000286102294921875px;
+  left: 1360px;
+  color: rgba(239, 228, 148, 1);
+  width: 157px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.faqpage-text36 {
+  top: 0.00000286102294921875px;
+  left: 1546px;
+  color: rgba(239, 228, 148, 1);
+  width: 117px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.faqpage-header2 {
+  top: 137px;
+  left: 19px;
+  width: 1728px;
+  height: 27px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.faqpage-rectangle8 {
+  top: -142px;
+  left: -20.5px;
+  width: 1730px;
+  height: 84px;
+  position: absolute;
+}
+ 
+.faqpage-group142 {
+  top: -115.26953125px;
+  left: 0px;
+  width: 1663px;
+  height: 10.44000244140625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.faqpage-text37 {
+  top: 0.00030517578125px;
+  left: 100px;
+  color: rgba(239, 228, 148, 1);
+  width: 70px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.faqpage-text38 {
+  top: 0.00030517578125px;
+  color: rgba(239, 228, 148, 1);
+  width: 74px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.faqpage-text39 {
+  top: 0.00030517578125px;
+  left: 195px;
+  color: rgba(239, 228, 148, 1);
+  width: 95px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.faqpage-text40 {
+  text-decoration: NONE;
+}
+ 
+.faqpage-text41 {
+  text-decoration: UNDERLINE;
+}
+ 
+.faqpage-text43 {
+  top: 0.00030517578125px;
+  left: 311px;
+  color: rgba(239, 228, 148, 1);
+  width: 191px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.faqpage-text44 {
+  top: 0.00030517578125px;
+  left: 513px;
+  color: rgba(239, 228, 148, 1);
+  width: 207px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.faqpage-text45 {
+  top: 0.00030517578125px;
+  left: 1360px;
+  color: rgba(239, 228, 148, 1);
+  width: 157px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.faqpage-text46 {
+  top: 0.00030517578125px;
+  left: 1546px;
+  color: rgba(239, 228, 148, 1);
+  width: 117px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.faqpage-rectangle1074 {
+  top: 329px;
+  left: 369px;
+  width: 989px;
+  height: 758px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+}
+ 
+.faqpage-divframerybm5vi1 {
+  top: 923px;
+  left: 410px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  opacity: 0.30;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.faqpage-divframerigoiwi10 {
+  top: 14.5px;
+  left: 4px;
+  width: 24px;
+  height: 3px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-divframer18pg7ky10 {
+  top: 4px;
+  left: 14.5px;
+  width: 3px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-divframerigoiwi11 {
+  top: 79.5px;
+  left: 5px;
+  width: 24px;
+  height: 3px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-divframer18pg7ky11 {
+  top: 69px;
+  left: 15.5px;
+  width: 3px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-text47 {
+  top: 918px;
+  left: 450px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25.200000762939453px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Noto Serif;
+  font-weight: 400;
+  line-height: 42px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.faqpage-text48 {
+  top: 722px;
+  left: 450px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25.200000762939453px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Noto Serif;
+  font-weight: 400;
+  line-height: 42px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.faqpage-text49 {
+  top: 818px;
+  left: 450px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25.200000762939453px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Noto Serif;
+  font-weight: 400;
+  line-height: 42px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.faqpage-text50 {
+  top: 629px;
+  left: 450px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25.200000762939453px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Noto Serif;
+  font-weight: 400;
+  line-height: 42px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.faqpage-divframerybm5vi2 {
+  top: 635px;
+  left: 411px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  opacity: 0.30;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.faqpage-divframerigoiwi12 {
+  top: 14.5px;
+  left: 4px;
+  width: 24px;
+  height: 3px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-divframer18pg7ky12 {
+  top: 4px;
+  left: 14.5px;
+  width: 3px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-divframerigoiwi13 {
+  top: 79.5px;
+  left: 5px;
+  width: 24px;
+  height: 3px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-divframer18pg7ky13 {
+  top: 69px;
+  left: 15.5px;
+  width: 3px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-divframerybm5vi3 {
+  top: 728px;
+  left: 410px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  opacity: 0.30;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.faqpage-divframerigoiwi14 {
+  top: 14.5px;
+  left: 4px;
+  width: 24px;
+  height: 3px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-divframer18pg7ky14 {
+  top: 4px;
+  left: 14.5px;
+  width: 3px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-divframerigoiwi15 {
+  top: 79.5px;
+  left: 5px;
+  width: 24px;
+  height: 3px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-divframer18pg7ky15 {
+  top: 69px;
+  left: 15.5px;
+  width: 3px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-divframerybm5vi4 {
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  opacity: 0.30;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.faqpage-divframerigoiwi16 {
+  top: 14.5px;
+  left: 4px;
+  width: 24px;
+  height: 3px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-divframer18pg7ky16 {
+  top: 4px;
+  left: 14.5px;
+  width: 3px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-divframerigoiwi17 {
+  top: 79.5px;
+  left: 5px;
+  width: 24px;
+  height: 3px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-divframer18pg7ky17 {
+  top: 69px;
+  left: 15.5px;
+  width: 3px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-divframerybm5vi5 {
+  top: 823px;
+  left: 411px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  opacity: 0.30;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.faqpage-divframerigoiwi18 {
+  top: 14.5px;
+  left: 4px;
+  width: 24px;
+  height: 3px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-divframer18pg7ky18 {
+  top: 4px;
+  left: 14.5px;
+  width: 3px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-divframerigoiwi19 {
+  top: 79.5px;
+  left: 5px;
+  width: 24px;
+  height: 3px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-divframer18pg7ky19 {
+  top: 69px;
+  left: 15.5px;
+  width: 3px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-text51 {
+  top: 496px;
+  left: 437px;
+  color: rgba(73, 67, 73, 1);
+  width: 821px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 170.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.faqpage-divframerybm5vi6 {
+  top: 412px;
+  left: 426.6274108886719px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  opacity: 0.30;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.faqpage-divframerigoiwi20 {
+  top: 14.5px;
+  left: 4px;
+  width: 24px;
+  height: 3px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-divframer18pg7ky20 {
+  top: 4px;
+  left: 14.5px;
+  width: 3px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.faqpage-text52 {
+  top: 444px;
+  left: 436px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25.200000762939453px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Noto Serif;
+  font-weight: 400;
+  line-height: 42px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.faqpage-rectangle1077 {
+  top: 791px;
+  left: 427px;
+  width: 842px;
+  height: 2px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 3px;
+}
+ 
+.faqpage-rectangle1080 {
+  top: 592px;
+  left: 429px;
+  width: 842px;
+  height: 2px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 3px;
+}
+ 
+.faqpage-rectangle1079 {
+  top: 693px;
+  left: 429px;
+  width: 842px;
+  height: 2px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 3px;
+}
+ 
+.faqpage-rectangle1078 {
+  top: 891px;
+  left: 425px;
+  width: 842px;
+  height: 2px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 3px;
+}
+ 
+.faqpage-text53 {
+  top: 1015px;
+  left: 466px;
+  color: rgba(128, 130, 137, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25.200000762939453px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25) ;
+  font-style: Regular;
+  text-align: left;
+  font-family: Noto Serif;
+  font-weight: 400;
+  line-height: 42px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.faqpage-image {
+  top: 1020.25px;
+  left: 410px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("public/external/tq_wzaxn8kxa5-br4l-200w-200w-200w.png");
+}

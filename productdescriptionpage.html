@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="english"
+  ><head
+    ><title>exported project</title
+    ><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Allerta:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./productdescriptionpage.css" rel="stylesheet" /><div
+        class="productdescriptionpage-container"
+        ><div class="productdescriptionpage-productdescriptionpage"
+          ><img
+            src="public/external/rectangle177521-f8no.svg"
+            alt="Rectangle177521"
+            class="productdescriptionpage-rectangle17" /><div
+            class="productdescriptionpage-frame1984078173"
+            ><div class="productdescriptionpage-frame19840781721"
+              ><div class="productdescriptionpage-icon1"
+                ><div class="productdescriptionpage-verify1"
+                  ><div class="productdescriptionpage-vuesaxboldverify1"
+                    ><div class="productdescriptionpage-verify2"
+                      ><img
+                        src="public/external/vectori752-2adq.svg"
+                        alt="VectorI752"
+                        class="productdescriptionpage-vector10" /></div></div></div></div
+              ><span class="productdescriptionpage-text10"
+                ><span>Specifications:</span><br /><span
+                  >• Lorem ipsum dolor sit amet • Consectetur adipiscing elit •
+                  Sed do eiusmod tempor incididunt • Ut labore et dolore magna
+                  aliqua • Ut enim ad minim veniam • Quis nostrud exercitation
+                  ullamco • Laboris nisi ut aliquip ex ea commodo </span
+                ></span
+              ></div
+            ></div
+          ><div class="productdescriptionpage-frame19840781722"
+            ><span class="productdescriptionpage-text14">About Product</span
+            ><div class="productdescriptionpage-frame1984078171"
+              ><div class="productdescriptionpage-icon2"
+                ><div class="productdescriptionpage-cup1"
+                  ><div class="productdescriptionpage-vuesaxboldcup"
+                    ><div class="productdescriptionpage-cup2"
+                      ><img
+                        src="public/external/vectori752-2r5.svg"
+                        alt="VectorI752"
+                        class="productdescriptionpage-vector11" /><img
+                        src="public/external/vectori752-wocc.svg"
+                        alt="VectorI752"
+                        class="productdescriptionpage-vector12" /></div></div></div></div
+              ><span class="productdescriptionpage-text15"
+                >Best Seller Product</span
+              ></div
+            ><div class="productdescriptionpage-frame19840781723"
+              ><div class="productdescriptionpage-icon3"
+                ><div class="productdescriptionpage-verify3"
+                  ><div class="productdescriptionpage-vuesaxboldverify2"
+                    ><div class="productdescriptionpage-verify4"
+                      ><img
+                        src="public/external/vectori752-csxg.svg"
+                        alt="VectorI752"
+                        class="productdescriptionpage-vector13" /></div></div></div></div
+              ><span class="productdescriptionpage-text16"
+                >100% satisfaction guarantee</span
+              ></div
+            ></div
+          ><div class="productdescriptionpage-footer"
+            ><img
+              src="public/external/rectangle16i752-jb7l.svg"
+              alt="Rectangle16I752"
+              class="productdescriptionpage-rectangle16" /><span
+              class="productdescriptionpage-text17"
+              ><a href="faqpage.html"><span>FAQ</span></a><br /><a href="contactuspage.html"><span>Contact</span></a></span
+            ><a href="aboutuspage.html"><span class="productdescriptionpage-text21">About Us</span
+            ></a><span class="productdescriptionpage-text22"
+              >2025 4Phones inc. All rights Reserved</span
+            ><span class="productdescriptionpage-text23"
+              ><a href="loginpage.html"><span>Sign in</span></a><br /><a href="registrationpage.html"><span>Register</span></a><br />
+                <a href="cartpage.html"><span
+                >Shopping cart</span
+              ></a></span
+            ><span class="productdescriptionpage-text29 BodyCopy">HELP</span
+            ><span class="productdescriptionpage-text30 BodyCopy">ABOUT US</span
+            ><span class="productdescriptionpage-text31 BodyCopy">ACCOUNT</span
+            ><span class="productdescriptionpage-text32 BodyCopy"
+              >FOLLOW 4Phones</span
+            ><img
+              src="public/external/vectori752-35tb.svg"
+              alt="VectorI752"
+              class="productdescriptionpage-vector14" /><img
+              src="public/external/vectori752-8r4i.svg"
+              alt="VectorI752"
+              class="productdescriptionpage-vector15" /><img
+              src="public/external/vectori752-zi1i.svg"
+              alt="VectorI752"
+              class="productdescriptionpage-vector16" /><img
+              src="public/external/vectori752-sk4.svg"
+              alt="VectorI752"
+              class="productdescriptionpage-vector17" /><img
+              src="public/external/vectori752-otgo.svg"
+              alt="VectorI752"
+              class="productdescriptionpage-vector18" /></div
+          ><div class="productdescriptionpage-header"
+            ><img
+              src="public/external/rectangle8i752-g7ij-200h.png"
+              alt="Rectangle8I752"
+              class="productdescriptionpage-rectangle8"
+            /><a href="loginpage.html"><span class="productdescriptionpage-text33">Login</span
+            ><a href="index.html"><span class="productdescriptionpage-text34">Home</span
+            ></a><span class="productdescriptionpage-text35"
+              ><span class="productdescriptionpage-text36"> </span
+              ><a href="searchresultpage.html"><span class="productdescriptionpage-text37">Search</span
+              ></a><span> </span></span
+            ><a href="cartpage.html"><span class="productdescriptionpage-text39">Shopping-Cart</span
+            ><a href="servicebookingpage.html"><span class="productdescriptionpage-text40">Service Booking</span
+            ><a href="registrationpage.html"><span class="productdescriptionpage-text41">Registration</span
+            ><a href="aboutuspage.html"><span class="productdescriptionpage-text42">About Us</span></div
+          ></a><div class="productdescriptionpage-right"
+            ><div class="productdescriptionpage-group1"
+              ><span class="productdescriptionpage-text43">IPhone </span
+              ><div class="productdescriptionpage-group2"
+                ><div class="productdescriptionpage-price"
+                  ><span class="productdescriptionpage-text44">$99.99</span
+                  ><span class="productdescriptionpage-text45"
+                    >$99.99</span
+                  ></div
+                ><span class="productdescriptionpage-text46">12 Left</span></div
+              ></div
+            ><a href="cartpage.html"><div class="productdescriptionpage-button"
+              ><div class="productdescriptionpage-shoppingcart1"
+                ><div class="productdescriptionpage-vuesaxlinearshoppingcart"
+                  ><div class="productdescriptionpage-shoppingcart2"
+                    ><img
+                      src="public/external/vectori752-1grk.svg"
+                      alt="VectorI752"
+                      class="productdescriptionpage-vector19" /><img
+                      src="public/external/vectori752-imah.svg"
+                      alt="VectorI752"
+                      class="productdescriptionpage-vector20" /><img
+                      src="public/external/vectori752-7i7a.svg"
+                      alt="VectorI752"
+                      class="productdescriptionpage-vector21" /><img
+                      src="public/external/vectori752-hjdg.svg"
+                      alt="VectorI752"
+                      class="productdescriptionpage-vector22" /></div></div></div
+              ><span class="productdescriptionpage-text47"
+                >Add To Cart</span
+              ></div
+            ></a></div
+          ><img
+            src="public/external/rectangle147522-xdc-600w.png"
+            alt="Rectangle147522"
+            class="productdescriptionpage-rectangle14" /><img
+            src="public/external/image7522-wjxj-500w.png"
+            alt="image7522"
+            class="productdescriptionpage-image" /><div
+            class="productdescriptionpage-reviews"
+            ><div class="productdescriptionpage-customer-reviews"
+              ><div class="productdescriptionpage-title-subtitle"
+                ><span class="productdescriptionpage-text48"
+                  >Customer Reviews</span
+                ><span class="productdescriptionpage-text49"
+                  >Average rating: 4.5&nbsp;(5391)</span
+                ></div
+              ><div class="productdescriptionpage-list"
+                ><div class="productdescriptionpage-frame72"
+                  ><div class="productdescriptionpage-frame751"
+                    ><div class="productdescriptionpage-star10"
+                      ><div class="productdescriptionpage-vuesaxlinearstar1"
+                        ><div class="productdescriptionpage-star11"
+                          ><img
+                            src="public/external/vectori752-t80p.svg"
+                            alt="VectorI752"
+                            class="productdescriptionpage-vector23" /></div></div></div></div
+                  ><div class="productdescriptionpage-frame641"
+                    ><img
+                      src="public/external/rectangle26i752-yiwo-200h.png"
+                      alt="Rectangle26I752"
+                      class="productdescriptionpage-rectangle261" /><img
+                      src="public/external/rectangle27i752-xny-200h.png"
+                      alt="Rectangle27I752"
+                      class="productdescriptionpage-rectangle271" /></div
+                  ><span class="productdescriptionpage-text50">4.28K</span></div
+                ><div class="productdescriptionpage-frame74"
+                  ><div class="productdescriptionpage-frame761"
+                    ><div class="productdescriptionpage-star12"
+                      ><div class="productdescriptionpage-vuesaxlinearstar2"
+                        ><div class="productdescriptionpage-star13"
+                          ><img
+                            src="public/external/vectori752-ar9j.svg"
+                            alt="VectorI752"
+                            class="productdescriptionpage-vector24" /></div></div></div></div
+                  ><div class="productdescriptionpage-frame642"
+                    ><img
+                      src="public/external/rectangle26i752-baf-200h.png"
+                      alt="Rectangle26I752"
+                      class="productdescriptionpage-rectangle262" /><img
+                      src="public/external/rectangle27i752-hi98-200h.png"
+                      alt="Rectangle27I752"
+                      class="productdescriptionpage-rectangle272" /></div
+                  ><span class="productdescriptionpage-text51">4.28K</span></div
+                ><div class="productdescriptionpage-frame752"
+                  ><div class="productdescriptionpage-frame771"
+                    ><div class="productdescriptionpage-star14"
+                      ><div class="productdescriptionpage-vuesaxlinearstar3"
+                        ><div class="productdescriptionpage-star15"
+                          ><img
+                            src="public/external/vectori752-w9be.svg"
+                            alt="VectorI752"
+                            class="productdescriptionpage-vector25" /></div></div></div></div
+                  ><div class="productdescriptionpage-frame643"
+                    ><img
+                      src="public/external/rectangle26i752-zz06-200h.png"
+                      alt="Rectangle26I752"
+                      class="productdescriptionpage-rectangle263" /><img
+                      src="public/external/rectangle27i752-77g-200h.png"
+                      alt="Rectangle27I752"
+                      class="productdescriptionpage-rectangle273" /></div
+                  ><span class="productdescriptionpage-text52">4.28K</span></div
+                ><div class="productdescriptionpage-frame762"
+                  ><div class="productdescriptionpage-frame772"
+                    ><div class="productdescriptionpage-star16"
+                      ><div class="productdescriptionpage-vuesaxlinearstar4"
+                        ><div class="productdescriptionpage-star17"
+                          ><img
+                            src="public/external/vectori752-26vk.svg"
+                            alt="VectorI752"
+                            class="productdescriptionpage-vector26" /></div></div></div></div
+                  ><div class="productdescriptionpage-frame644"
+                    ><img
+                      src="public/external/rectangle26i752-2xle-200h.png"
+                      alt="Rectangle26I752"
+                      class="productdescriptionpage-rectangle264" /><img
+                      src="public/external/rectangle27i752-34g-200h.png"
+                      alt="Rectangle27I752"
+                      class="productdescriptionpage-rectangle274" /></div
+                  ><span class="productdescriptionpage-text53">4.28K</span></div
+                ><div class="productdescriptionpage-frame73"
+                  ><div class="productdescriptionpage-frame773"
+                    ><div class="productdescriptionpage-star18"
+                      ><div class="productdescriptionpage-vuesaxlinearstar5"
+                        ><div class="productdescriptionpage-star19"
+                          ><img
+                            src="public/external/vectori752-ezh.svg"
+                            alt="VectorI752"
+                            class="productdescriptionpage-vector27" /></div></div></div></div
+                  ><div class="productdescriptionpage-frame645"
+                    ><img
+                      src="public/external/rectangle26i752-et9x-200h.png"
+                      alt="Rectangle26I752"
+                      class="productdescriptionpage-rectangle265" /><img
+                      src="public/external/rectangle27i752-8llf-200h.png"
+                      alt="Rectangle27I752"
+                      class="productdescriptionpage-rectangle275" /></div
+                  ><span class="productdescriptionpage-text54">4.28K</span></div
+                ></div
+              ></div
+            ><div class="productdescriptionpage-frame69"
+              ><span class="productdescriptionpage-text55">Reviews</span
+              ><div class="productdescriptionpage-frame85"
+                ><div class="productdescriptionpage-user"
+                  ><span class="productdescriptionpage-text56">Perfect</span
+                  ><div class="productdescriptionpage-frame791"
+                    ><div class="productdescriptionpage-frame781"
+                      ><div class="productdescriptionpage-star20"
+                        ><div class="productdescriptionpage-vuesaxboldstar1"
+                          ><div class="productdescriptionpage-star21"
+                            ><img
+                              src="public/external/vectori752-5ph3.svg"
+                              alt="VectorI752"
+                              class="productdescriptionpage-vector28" /></div></div></div
+                      ><div class="productdescriptionpage-star22"
+                        ><div class="productdescriptionpage-vuesaxboldstar2"
+                          ><div class="productdescriptionpage-star23"
+                            ><img
+                              src="public/external/vectori752-jz5u.svg"
+                              alt="VectorI752"
+                              class="productdescriptionpage-vector29" /></div></div></div
+                      ><div class="productdescriptionpage-star24"
+                        ><div class="productdescriptionpage-vuesaxboldstar3"
+                          ><div class="productdescriptionpage-star25"
+                            ><img
+                              src="public/external/vectori752-mdbd.svg"
+                              alt="VectorI752"
+                              class="productdescriptionpage-vector30" /></div></div></div
+                      ><div class="productdescriptionpage-star26"
+                        ><div class="productdescriptionpage-vuesaxboldstar4"
+                          ><div class="productdescriptionpage-star27"
+                            ><img
+                              src="public/external/vectori752-sw32.svg"
+                              alt="VectorI752"
+                              class="productdescriptionpage-vector31" /></div></div></div
+                      ><div class="productdescriptionpage-star28"
+                        ><div class="productdescriptionpage-vuesaxlinearstar6"
+                          ><div class="productdescriptionpage-star29"
+                            ><img
+                              src="public/external/vectori752-iip8.svg"
+                              alt="VectorI752"
+                              class="productdescriptionpage-vector32" /></div></div></div></div
+                    ><span class="productdescriptionpage-text57"
+                      ><span
+                        >Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex
+                        ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. </span
+                      ><br /></span></div></div
+                ><div class="productdescriptionpage-frame80"
+                  ><span class="productdescriptionpage-text60">Perfect</span
+                  ><div class="productdescriptionpage-frame792"
+                    ><div class="productdescriptionpage-frame782"
+                      ><div class="productdescriptionpage-star30"
+                        ><div class="productdescriptionpage-vuesaxboldstar5"
+                          ><div class="productdescriptionpage-star31"
+                            ><img
+                              src="public/external/vectori752-cb8.svg"
+                              alt="VectorI752"
+                              class="productdescriptionpage-vector33" /></div></div></div
+                      ><div class="productdescriptionpage-star32"
+                        ><div class="productdescriptionpage-vuesaxboldstar6"
+                          ><div class="productdescriptionpage-star33"
+                            ><img
+                              src="public/external/vectori752-pfxc.svg"
+                              alt="VectorI752"
+                              class="productdescriptionpage-vector34" /></div></div></div
+                      ><div class="productdescriptionpage-star34"
+                        ><div class="productdescriptionpage-vuesaxboldstar7"
+                          ><div class="productdescriptionpage-star35"
+                            ><img
+                              src="public/external/vectori752-7e3k.svg"
+                              alt="VectorI752"
+                              class="productdescriptionpage-vector35" /></div></div></div
+                      ><div class="productdescriptionpage-star36"
+                        ><div class="productdescriptionpage-vuesaxboldstar8"
+                          ><div class="productdescriptionpage-star37"
+                            ><img
+                              src="public/external/vectori752-j1uf.svg"
+                              alt="VectorI752"
+                              class="productdescriptionpage-vector36" /></div></div></div
+                      ><div class="productdescriptionpage-star38"
+                        ><div class="productdescriptionpage-vuesaxlinearstar7"
+                          ><div class="productdescriptionpage-star39"
+                            ><img
+                              src="public/external/vectori752-dd1c.svg"
+                              alt="VectorI752"
+                              class="productdescriptionpage-vector37" /></div></div></div></div
+                    ><span class="productdescriptionpage-text61"
+                      ><span
+                        >Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex
+                        ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. </span
+                      ><br /></span></div></div></div
+              ><div class="productdescriptionpage-frame83"
+                ><span class="productdescriptionpage-text64">Recent</span
+                ><div class="productdescriptionpage-arrowdown1"
+                  ><div class="productdescriptionpage-vuesaxlineararrowdown"
+                    ><div class="productdescriptionpage-arrowdown2"
+                      ><img
+                        src="public/external/vectori752-1f2.svg"
+                        alt="VectorI752"
+                        class="productdescriptionpage-vector38" /></div></div></div></div></div></div></div></div
+    ></div> </body
+></html>

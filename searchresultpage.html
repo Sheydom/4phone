@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="english"
+  ><head
+    ><title>exported project</title
+    ><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Allerta:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./searchresultpage.css" rel="stylesheet" /><div
+        class="searchresultpage-container"
+        ><div class="searchresultpage-searchresultpage"
+          ><img
+            src="public/external/rectangle177514-hk8k.svg"
+            alt="Rectangle177514"
+            class="searchresultpage-rectangle17"
+          /><span class="searchresultpage-text100">Filter</span
+          ><div class="searchresultpage-frame1131"
+            ><div class="searchresultpage-list1"
+              ><div class="searchresultpage-toggle1"
+                ><div class="searchresultpage-frame19840782831"
+                  ><div class="searchresultpage-checkboxbase10"
+                    ><button
+                      class="searchresultpage-button1"
+                    ></button></div></div
+                ><span class="searchresultpage-text101">Sales</span></div
+              ><div class="searchresultpage-toggle2"
+                ><div class="searchresultpage-frame19840782832"
+                  ><div class="searchresultpage-checkboxbase11"
+                    ><button
+                      class="searchresultpage-button2"
+                    ></button></div></div
+                ><span class="searchresultpage-text102">Trending</span></div
+              ></div
+            ><div class="searchresultpage-frame111"
+              ><span class="searchresultpage-text103">Price</span
+              ><div class="searchresultpage-list2"
+                ><div class="searchresultpage-toggle3"
+                  ><div class="searchresultpage-frame19840782833"
+                    ><div class="searchresultpage-checkboxbase12"
+                      ><button
+                        class="searchresultpage-button3"
+                      ></button></div></div
+                  ><div class="searchresultpage-frame19840782841"
+                    ><div class="searchresultpage-frame19840782851"
+                      ><span class="searchresultpage-text104">All</span></div
+                    ></div
+                  ></div
+                ><div class="searchresultpage-toggle4"
+                  ><div class="searchresultpage-frame19840782834"
+                    ><div class="searchresultpage-checkboxbase13"
+                      ><button
+                        class="searchresultpage-button4"
+                      ></button></div></div
+                  ><div class="searchresultpage-frame19840782842"
+                    ><div class="searchresultpage-frame19840782852"
+                      ><span class="searchresultpage-text105"
+                        >$300-500</span
+                      ></div
+                    ></div
+                  ></div
+                ><div class="searchresultpage-toggle5"
+                  ><div class="searchresultpage-frame19840782835"
+                    ><div class="searchresultpage-checkboxbase14"
+                      ><button
+                        class="searchresultpage-button5"
+                      ></button></div></div
+                  ><div class="searchresultpage-frame19840782843"
+                    ><div class="searchresultpage-frame19840782853"
+                      ><span class="searchresultpage-text106"
+                        >$600-900</span
+                      ></div
+                    ></div
+                  ></div
+                ><div class="searchresultpage-toggle6"
+                  ><div class="searchresultpage-frame19840782836"
+                    ><div class="searchresultpage-checkboxbase15"
+                      ><button
+                        class="searchresultpage-button6"
+                      ></button></div></div
+                  ><div class="searchresultpage-frame19840782844"
+                    ><div class="searchresultpage-frame19840782854"
+                      ><span class="searchresultpage-text107"
+                        >$1000-3500</span
+                      ></div
+                    ></div
+                  ></div
+                ></div
+              ></div
+            ><div class="searchresultpage-frame1132"
+              ><span class="searchresultpage-text108">Brand</span
+              ><div class="searchresultpage-list3"
+                ><button class="searchresultpage-radio-button1"
+                  ><div class="searchresultpage-input1"
+                    ><div class="searchresultpage-checkboxbase16"
+                      ><div class="searchresultpage-check1"></div></div></div
+                  ><div class="searchresultpage-textandsupportingtext1"
+                    ><span class="searchresultpage-text109 BodyLSemibold"
+                      >All</span
+                    ></div
+                  ></button
+                ><button class="searchresultpage-radio-button2"
+                  ><div class="searchresultpage-input2"
+                    ><div class="searchresultpage-checkboxbase17"></div></div
+                  ><span class="searchresultpage-text110">Apple</span></button
+                ><button class="searchresultpage-radio-button3"
+                  ><div class="searchresultpage-input3"
+                    ><div class="searchresultpage-checkboxbase18"></div></div
+                  ><span class="searchresultpage-text111">Samsung</span></button
+                ><button class="searchresultpage-radio-button4"
+                  ><div class="searchresultpage-input4"
+                    ><div class="searchresultpage-checkboxbase19"></div></div
+                  ><span class="searchresultpage-text112">Google</span></button
+                ></div
+              ></div
+            ><div class="searchresultpage-frame114"
+              ><span class="searchresultpage-text113">Release Date</span
+              ><div class="searchresultpage-list4"
+                ><button class="searchresultpage-radio-button5"
+                  ><div class="searchresultpage-input5"
+                    ><div class="searchresultpage-checkboxbase20"
+                      ><div class="searchresultpage-check2"></div></div></div
+                  ><div class="searchresultpage-textandsupportingtext2"
+                    ><span class="searchresultpage-text114 BodyLSemibold"
+                      >All</span
+                    ></div
+                  ></button
+                ><button class="searchresultpage-radio-button6"
+                  ><div class="searchresultpage-input6"
+                    ><div class="searchresultpage-checkboxbase21"></div></div
+                  ><span class="searchresultpage-text115">New</span></button
+                ><button class="searchresultpage-radio-button7"
+                  ><div class="searchresultpage-input7"
+                    ><div class="searchresultpage-checkboxbase22"></div></div
+                  ><span class="searchresultpage-text116"
+                    >1-2 years</span
+                  ></button
+                ><button class="searchresultpage-radio-button8"
+                  ><div class="searchresultpage-input8"
+                    ><div class="searchresultpage-checkboxbase23"></div></div
+                  ><span class="searchresultpage-text117"
+                    >3-5 years</span
+                  ></button
+                ></div
+              ></div
+            ><span class="searchresultpage-text118">Reset</span></div
+          ><div class="searchresultpage-list5"
+            ><div class="searchresultpage-section1"
+              ><div class="searchresultpage-frame112"
+                    ><a href="productdescriptionpage.html"><div class="searchresultpage-frame141"
+                  ><div class="searchresultpage-frame1910"
+                    ><img
+                      src="public/external/image7515-dspc-300h.png"
+                      alt="image7515"
+                      class="searchresultpage-image10" /></div
+                  ><span class="searchresultpage-text119">Iphone</span
+                  ><div class="searchresultpage-content10"
+                    ><div class="searchresultpage-group10"
+                      ><div class="searchresultpage-frame610"
+                        ><span class="searchresultpage-text120 Body2XLSemibold"
+                          >$99.99</span
+                        ><span class="searchresultpage-text121 BodyLMedium"
+                          >$99.99</span
+                        ></div
+                      ><div class="searchresultpage-frame810"
+                        ><span class="searchresultpage-text122">12 Left</span
+                        ><img
+                          src="public/external/line17515-sta.svg"
+                          alt="Line17515"
+                          class="searchresultpage-line110"
+                        /><span class="searchresultpage-text123"
+                          >12 Left</span
+                        ></div
+                      ></div
+                    ></div
+                  ></div
+                ></a><a href="productdescriptionpage.html"><div class="searchresultpage-frame181"
+                  ><div class="searchresultpage-frame1911"
+                    ><img
+                      src="public/external/image7516-cm21q-300h.png"
+                      alt="image7516"
+                      class="searchresultpage-image11" /></div
+                  ><span class="searchresultpage-text124">Iphone</span
+                  ><div class="searchresultpage-content11"
+                    ><div class="searchresultpage-group11"
+                      ><div class="searchresultpage-frame611"
+                        ><span class="searchresultpage-text125 Body2XLSemibold"
+                          >$99.99</span
+                        ><span class="searchresultpage-text126 BodyLMedium"
+                          >$99.99</span
+                        ></div
+                      ><div class="searchresultpage-frame811"
+                        ><span class="searchresultpage-text127">12 Left</span
+                        ><img
+                          src="public/external/line17516-4bo.svg"
+                          alt="Line17516"
+                          class="searchresultpage-line111"
+                        /><span class="searchresultpage-text128"
+                          >12 Left</span
+                        ></div
+                      ></div
+                    ></div
+                  ></div
+                ></a><a href="productdescriptionpage.html"><div class="searchresultpage-frame171"
+                  ><div class="searchresultpage-frame1912"
+                    ><img
+                      src="public/external/image7516-qy1-300h.png"
+                      alt="image7516"
+                      class="searchresultpage-image12" /><img
+                      src="public/external/image17516-4gds-300w.png"
+                      alt="image17516"
+                      class="searchresultpage-image13" /></div
+                  ><span class="searchresultpage-text129">Iphone</span
+                  ><div class="searchresultpage-content12"
+                    ><div class="searchresultpage-group12"
+                      ><div class="searchresultpage-frame612"
+                        ><span class="searchresultpage-text130 Body2XLSemibold"
+                          >$99.99</span
+                        ><span class="searchresultpage-text131 BodyLMedium"
+                          >$99.99</span
+                        ></div
+                      ><div class="searchresultpage-frame812"
+                        ><span class="searchresultpage-text132">12 Left</span
+                        ><img
+                          src="public/external/line17516-9tt.svg"
+                          alt="Line17516"
+                          class="searchresultpage-line112"
+                        /><span class="searchresultpage-text133"
+                          >12 Left</span
+                        ></div
+                      ></div
+                    ></div
+                  ></div
+                ></a><a href="productdescriptionpage.html"><div class="searchresultpage-frame161"
+                  ><div class="searchresultpage-frame1913"
+                    ><img
+                      src="public/external/image7516-q44-300h.png"
+                      alt="image7516"
+                      class="searchresultpage-image14" /></div
+                  ><span class="searchresultpage-text134">Iphone</span
+                  ><div class="searchresultpage-content13"
+                    ><div class="searchresultpage-group13"
+                      ><div class="searchresultpage-frame613"
+                        ><span class="searchresultpage-text135 Body2XLSemibold"
+                          >$99.99</span
+                        ><span class="searchresultpage-text136 BodyLMedium"
+                          >$99.99</span
+                        ></div
+                      ><div class="searchresultpage-frame813"
+                        ><span class="searchresultpage-text137">12 Left</span
+                        ><img
+                          src="public/external/line17516-jlaf.svg"
+                          alt="Line17516"
+                          class="searchresultpage-line113"
+                        /><span class="searchresultpage-text138"
+                          >12 Left</span
+                        ></div
+                      ></div
+                    ></div
+                  ></div
+                ></a></div
+              ></div
+            ><div class="searchresultpage-section2"
+              ><div class="searchresultpage-frame115"
+                ><a href="productdescriptionpage.html"><div class="searchresultpage-frame142"
+                  ><div class="searchresultpage-frame1914"
+                    ><img
+                      src="public/external/image7516-6946o7-300h.png"
+                      alt="image7516"
+                      class="searchresultpage-image15" /></div
+                  ><span class="searchresultpage-text139">Iphone</span
+                  ><div class="searchresultpage-content14"
+                    ><div class="searchresultpage-group14"
+                      ><div class="searchresultpage-frame614"
+                        ><span class="searchresultpage-text140 Body2XLSemibold"
+                          >$99.99</span
+                        ><span class="searchresultpage-text141 BodyLMedium"
+                          >$99.99</span
+                        ></div
+                      ><div class="searchresultpage-frame814"
+                        ><span class="searchresultpage-text142">12 Left</span
+                        ><img
+                          src="public/external/line17516-ev1.svg"
+                          alt="Line17516"
+                          class="searchresultpage-line114"
+                        /><span class="searchresultpage-text143"
+                          >12 Left</span
+                        ></div
+                      ></div
+                    ></div
+                  ></div
+                ></a><a href="productdescriptionpage.html"><div class="searchresultpage-frame182"
+                  ><div class="searchresultpage-frame1915"
+                    ><img
+                      src="public/external/image7516-bs8c-300h.png"
+                      alt="image7516"
+                      class="searchresultpage-image16" /></div
+                  ><span class="searchresultpage-text144">Iphone</span
+                  ><div class="searchresultpage-content15"
+                    ><div class="searchresultpage-group15"
+                      ><div class="searchresultpage-frame615"
+                        ><span class="searchresultpage-text145 Body2XLSemibold"
+                          >$99.99</span
+                        ><span class="searchresultpage-text146 BodyLMedium"
+                          >$99.99</span
+                        ></div
+                      ><div class="searchresultpage-frame815"
+                        ><span class="searchresultpage-text147">12 Left</span
+                        ><img
+                          src="public/external/line17516-e3t.svg"
+                          alt="Line17516"
+                          class="searchresultpage-line115"
+                        /><span class="searchresultpage-text148"
+                          >12 Left</span
+                        ></div
+                      ></div
+                    ></div
+                  ></div
+                ></a><a href="productdescriptionpage.html"><div class="searchresultpage-frame172"
+                  ><div class="searchresultpage-frame1916"
+                    ><img
+                      src="public/external/image7516-pq29-300h.png"
+                      alt="image7516"
+                      class="searchresultpage-image17" /><img
+                      src="public/external/image17516-of5r-300w.png"
+                      alt="image17516"
+                      class="searchresultpage-image18" /></div
+                  ><span class="searchresultpage-text149">Iphone</span
+                  ><div class="searchresultpage-content16"
+                    ><div class="searchresultpage-group16"
+                      ><div class="searchresultpage-frame616"
+                        ><span class="searchresultpage-text150 Body2XLSemibold"
+                          >$99.99</span
+                        ><span class="searchresultpage-text151 BodyLMedium"
+                          >$99.99</span
+                        ></div
+                      ><div class="searchresultpage-frame816"
+                        ><span class="searchresultpage-text152">12 Left</span
+                        ><img
+                          src="public/external/line17517-jgwa.svg"
+                          alt="Line17517"
+                          class="searchresultpage-line116"
+                        /><span class="searchresultpage-text153"
+                          >12 Left</span
+                        ></div
+                      ></div
+                    ></div
+                  ></div
+                ></a><a href="productdescriptionpage.html"><div class="searchresultpage-frame162"
+                  ><div class="searchresultpage-frame1917"
+                    ><img
+                      src="public/external/image7517-alb-300h.png"
+                      alt="image7517"
+                      class="searchresultpage-image19" /></div
+                  ><span class="searchresultpage-text154">Iphone</span
+                  ><div class="searchresultpage-content17"
+                    ><div class="searchresultpage-group17"
+                      ><div class="searchresultpage-frame617"
+                        ><span class="searchresultpage-text155 Body2XLSemibold"
+                          >$99.99</span
+                        ><span class="searchresultpage-text156 BodyLMedium"
+                          >$99.99</span
+                        ></div
+                      ><div class="searchresultpage-frame817"
+                        ><span class="searchresultpage-text157">12 Left</span
+                        ><img
+                          src="public/external/line17517-1xii.svg"
+                          alt="Line17517"
+                          class="searchresultpage-line117"
+                        /><span class="searchresultpage-text158"
+                          >12 Left</span
+                        ></div
+                      ></div
+                    ></div
+                  ></div
+                ></a></div
+              ></div
+            ><div class="searchresultpage-section3"
+              ><div class="searchresultpage-frame116"
+                ><a href="productdescriptionpage.html"><div class="searchresultpage-frame143"
+                  ><div class="searchresultpage-frame1918"
+                    ><img
+                      src="public/external/image7517-udg-300h.png"
+                      alt="image7517"
+                      class="searchresultpage-image20" /></div
+                  ><span class="searchresultpage-text159">Iphone</span
+                  ><div class="searchresultpage-content18"
+                    ><div class="searchresultpage-group18"
+                      ><div class="searchresultpage-frame618"
+                        ><span class="searchresultpage-text160 Body2XLSemibold"
+                          >$99.99</span
+                        ><span class="searchresultpage-text161 BodyLMedium"
+                          >$99.99</span
+                        ></div
+                      ><div class="searchresultpage-frame818"
+                        ><span class="searchresultpage-text162">12 Left</span
+                        ><img
+                          src="public/external/line17517-a9b.svg"
+                          alt="Line17517"
+                          class="searchresultpage-line118"
+                        /><span class="searchresultpage-text163"
+                          >12 Left</span
+                        ></div
+                      ></div
+                    ></div
+                  ></div
+                ></a><a href="productdescriptionpage.html"><div class="searchresultpage-frame183"
+                  ><div class="searchresultpage-frame1919"
+                    ><img
+                      src="public/external/image7517-a92p-300h.png"
+                      alt="image7517"
+                      class="searchresultpage-image21" /></div
+                  ><span class="searchresultpage-text164">Iphone</span
+                  ><div class="searchresultpage-content19"
+                    ><div class="searchresultpage-group19"
+                      ><div class="searchresultpage-frame619"
+                        ><span class="searchresultpage-text165 Body2XLSemibold"
+                          >$99.99</span
+                        ><span class="searchresultpage-text166 BodyLMedium"
+                          >$99.99</span
+                        ></div
+                      ><div class="searchresultpage-frame819"
+                        ><span class="searchresultpage-text167">12 Left</span
+                        ><img
+                          src="public/external/line17517-p2ab.svg"
+                          alt="Line17517"
+                          class="searchresultpage-line119"
+                        /><span class="searchresultpage-text168"
+                          >12 Left</span
+                        ></div
+                      ></div
+                    ></div
+                  ></div
+                ></a><a href="productdescriptionpage.html"><div class="searchresultpage-frame173"
+                  ><div class="searchresultpage-frame1920"
+                    ><img
+                      src="public/external/image7517-ow3k-300h.png"
+                      alt="image7517"
+                      class="searchresultpage-image22" /><img
+                      src="public/external/image17517-m1sb-300w.png"
+                      alt="image17517"
+                      class="searchresultpage-image110" /></div
+                  ><span class="searchresultpage-text169">Iphone</span
+                  ><div class="searchresultpage-content20"
+                    ><div class="searchresultpage-group20"
+                      ><div class="searchresultpage-frame620"
+                        ><span class="searchresultpage-text170 Body2XLSemibold"
+                          >$99.99</span
+                        ><span class="searchresultpage-text171 BodyLMedium"
+                          >$99.99</span
+                        ></div
+                      ><div class="searchresultpage-frame820"
+                        ><span class="searchresultpage-text172">12 Left</span
+                        ><img
+                          src="public/external/line17517-bnw.svg"
+                          alt="Line17517"
+                          class="searchresultpage-line120"
+                        /><span class="searchresultpage-text173"
+                          >12 Left</span
+                        ></div
+                      ></div
+                    ></div
+                  ></div
+                ></a><a href="productdescriptionpage.html"><div class="searchresultpage-frame163"
+                  ><div class="searchresultpage-frame1921"
+                    ><img
+                      src="public/external/image7517-khqh-300h.png"
+                      alt="image7517"
+                      class="searchresultpage-image23" /></div
+                  ><span class="searchresultpage-text174">Iphone</span
+                  ><div class="searchresultpage-content21"
+                    ><div class="searchresultpage-group21"
+                      ><div class="searchresultpage-frame621"
+                        ><span class="searchresultpage-text175 Body2XLSemibold"
+                          >$99.99</span
+                        ><span class="searchresultpage-text176 BodyLMedium"
+                          >$99.99</span
+                        ></div
+                      ><div class="searchresultpage-frame821"
+                        ><span class="searchresultpage-text177">12 Left</span
+                        ><img
+                          src="public/external/line17517-k33p.svg"
+                          alt="Line17517"
+                          class="searchresultpage-line121"
+                        /><span class="searchresultpage-text178"
+                          >12 Left</span
+                        ></div
+                      ></div
+                    ></div
+                  ></div
+                ></a></div
+              ></div
+            ></div
+          ><img
+            src="public/external/image17518-kmzl-300w.png"
+            alt="image17518"
+            class="searchresultpage-image111"
+          /><div class="searchresultpage-city"></div
+          ><div class="searchresultpage-state"></div
+          ><div class="searchresultpage-footer"
+            ><img
+              src="public/external/rectangle16i751-nq3.svg"
+              alt="Rectangle16I751"
+              class="searchresultpage-rectangle16" /><span
+              class="searchresultpage-text179"
+              ><a href="faqpage.html"><span>FAQ</span></a><br /><a href="contactuspage.html"><span>Contact</span></a></span
+            ><a href="aboutuspage.html"><span class="searchresultpage-text183">About Us</span
+            ></a><span class="searchresultpage-text184"
+              >2025 4Phones inc. All rights Reserved</span
+            ><span class="searchresultpage-text185"
+              ><a href="loginpage.html"><span>Sign in</span></a><br /><a href="registrationpage.html"><span>Register</span></a><br />
+                <a href="cartpage.html"><span
+                >Shopping cart</span
+              ></a></span
+            ><span class="searchresultpage-text191 BodyCopy">HELP</span
+            ><span class="searchresultpage-text192 BodyCopy">ABOUT US</span
+            ><span class="searchresultpage-text193 BodyCopy">ACCOUNT</span
+            ><span class="searchresultpage-text194 BodyCopy"
+              >FOLLOW 4Phones</span
+            ><img
+              src="public/external/vectori751-j45b.svg"
+              alt="VectorI751"
+              class="searchresultpage-vector1" /><img
+              src="public/external/vectori751-v0yi.svg"
+              alt="VectorI751"
+              class="searchresultpage-vector2" /><img
+              src="public/external/vectori751-1n7h.svg"
+              alt="VectorI751"
+              class="searchresultpage-vector3" /><img
+              src="public/external/vectori751-cz66.svg"
+              alt="VectorI751"
+              class="searchresultpage-vector4" /><img
+              src="public/external/vectori751-7zlg.svg"
+              alt="VectorI751"
+              class="searchresultpage-vector5" /></div
+          ><div class="searchresultpage-header"
+            ><img
+              src="public/external/rectangle8i751-jro9-200h.png"
+              alt="Rectangle8I751"
+              class="searchresultpage-rectangle8"
+            /><a href="loginpage.html"><span class="searchresultpage-text195">Login</span
+            ></a><a href="index.html"><span class="searchresultpage-text196">Home</span
+            ></a><span class="searchresultpage-text197"
+              ><span class="searchresultpage-text198"> </span
+              ><a href="seachresultpage.html"><span class="searchresultpage-text199">Search</span
+              ></a><span> </span></span
+            ><a href="cartpage.html"><span class="searchresultpage-text201">Shopping-Cart</span
+            ><a href="servicebookingpage.html"><span class="searchresultpage-text202">Service Booking</span
+            ><a href="registrationpage.html"><span class="searchresultpage-text203">Registration</span
+            ><a href="aboutuspage.html"><span class="searchresultpage-text204">About Us</span></a></div
+          ></div
+        ></div
+      ></div
+    >
+  </body></html
+>
