@@ -6,7 +6,13 @@
   align-items: center;
   flex-direction: column;
 }
- 
+
+.faqlink {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .contactuspage-contactuspage {
   width: 100%;
   height: 1533px;
@@ -17,7 +23,7 @@
   flex-shrink: 0;
   background-color: rgba(255, 255, 255, 1);
 }
- 
+
 .contactuspage-rectangle17 {
   top: 75px;
   left: -2px;
@@ -25,7 +31,7 @@
   height: 1122px;
   position: absolute;
 }
- 
+
 .contactuspage-form-log-in {
   gap: 29px;
   top: 426px;
@@ -44,7 +50,7 @@
   justify-content: center;
   background-color: rgba(160, 116, 56, 0.44999998807907104);
 }
- 
+
 .contactuspage-input-field1 {
   gap: 8px;
   top: 12px;
@@ -57,7 +63,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
- 
+
 .contactuspage-text10 {
   color: rgba(30, 30, 30, 1);
   width: 763px;
@@ -71,7 +77,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .contactuspage-input1 {
   color: rgba(179, 179, 179, 1);
   width: 763px;
@@ -92,7 +98,7 @@
   border-radius: 8px;
   background-color: rgba(255, 255, 255, 1);
 }
- 
+
 .contactuspage-input-field2 {
   gap: 8px;
   top: 97px;
@@ -104,7 +110,7 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
- 
+
 .contactuspage-text11 {
   color: rgba(30, 30, 30, 1);
   width: 763px;
@@ -119,7 +125,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .contactuspage-input2 {
   top: 30px;
   left: 0px;
@@ -142,7 +148,7 @@
   border-radius: 8px;
   background-color: rgba(255, 255, 255, 1);
 }
- 
+
 .contactuspage-input-field3 {
   gap: 8px;
   top: 185px;
@@ -154,7 +160,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
- 
+
 .contactuspage-text12 {
   color: rgba(30, 30, 30, 1);
   width: 763px;
@@ -168,7 +174,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .contactuspage-input3 {
   color: rgba(179, 179, 179, 1);
   width: 763px;
@@ -189,7 +195,7 @@
   border-radius: 8px;
   background-color: rgba(255, 255, 255, 1);
 }
- 
+
 .contactuspage-text13 {
   top: 302px;
   left: 24px;
@@ -206,7 +212,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .contactuspage-input4 {
   top: 338px;
   left: 24px;
@@ -229,7 +235,7 @@
   border-radius: 8px;
   background-color: rgba(255, 255, 255, 1);
 }
- 
+
 .contactuspage-button-group {
   gap: 16px;
   top: 475px;
@@ -241,13 +247,13 @@
   align-items: center;
   flex-shrink: 0;
 }
- 
+
 .contactuspage-button {
   gap: 8px;
   position: absolute;
-  width:765px;
-  right:12px;
-  top:470px;
+  width: 765px;
+  right: 12px;
+  top: 470px;
   display: flex;
   padding: 12px;
   overflow: hidden;
@@ -260,7 +266,7 @@
   justify-content: center;
   background-color: rgba(44, 44, 44, 1);
 }
- 
+
 .contactuspage-text14 {
   color: rgba(245, 245, 245, 1);
   height: auto;
@@ -273,7 +279,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .contactuspage-footer {
   top: 1197px;
   left: -10px;
@@ -284,7 +290,7 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
- 
+
 .contactuspage-rectangle16 {
   top: 0px;
   left: 0px;
@@ -292,7 +298,7 @@
   height: 337px;
   position: absolute;
 }
- 
+
 .contactuspage-text15 {
   top: 117.9426498413086px;
   left: 394px;
@@ -309,7 +315,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .contactuspage-text19 {
   top: 113.27229309082031px;
   left: 606px;
@@ -326,7 +332,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .contactuspage-text20 {
   top: 256.5556640625px;
   left: 698px;
@@ -343,7 +349,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .contactuspage-text21 {
   top: 120.37446594238281px;
   left: 139px;
@@ -360,7 +366,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .contactuspage-text27 {
   top: 80.2496337890625px;
   left: 391px;
@@ -371,7 +377,7 @@
   text-align: center;
   line-height: 28px;
 }
- 
+
 .contactuspage-text28 {
   top: 80.2496337890625px;
   left: 603px;
@@ -382,7 +388,7 @@
   text-align: center;
   line-height: 28px;
 }
- 
+
 .contactuspage-text29 {
   top: 71.73831176757812px;
   left: 136px;
@@ -393,7 +399,7 @@
   text-align: center;
   line-height: 28px;
 }
- 
+
 .contactuspage-text30 {
   top: 71.73831176757812px;
   left: 1185px;
@@ -404,7 +410,7 @@
   text-align: center;
   line-height: 28px;
 }
- 
+
 .contactuspage-vector1 {
   top: 126.4539794921875px;
   left: 1323px;
@@ -412,7 +418,7 @@
   height: 49px;
   position: absolute;
 }
- 
+
 .contactuspage-vector2 {
   top: 126.4539794921875px;
   left: 1260px;
@@ -420,7 +426,7 @@
   height: 49px;
   position: absolute;
 }
- 
+
 .contactuspage-vector3 {
   top: 127.66988372802734px;
   left: 1197px;
@@ -428,7 +434,7 @@
   height: 49px;
   position: absolute;
 }
- 
+
 .contactuspage-vector4 {
   top: 258.22601318359375px;
   left: 661px;
@@ -436,7 +442,7 @@
   height: 28px;
   position: absolute;
 }
- 
+
 .contactuspage-vector5 {
   top: 126.07194519042969px;
   left: 1386px;
@@ -444,7 +450,7 @@
   height: 48px;
   position: absolute;
 }
- 
+
 .contactuspage-header {
   top: 0px;
   left: 0px;
@@ -455,7 +461,7 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
- 
+
 .contactuspage-rectangle8 {
   top: 0px;
   left: 0px;
@@ -463,7 +469,7 @@
   height: 75px;
   position: absolute;
 }
- 
+
 .contactuspage-text31 {
   top: 23px;
   left: 133.51417541503906px;
@@ -479,7 +485,7 @@
   font-stretch: normal;
   text-decoration: underline;
 }
- 
+
 .contactuspage-text32 {
   top: 23px;
   left: 28.816009521484375px;
@@ -495,7 +501,7 @@
   font-stretch: normal;
   text-decoration: underline;
 }
- 
+
 .contactuspage-text33 {
   top: 23.02630615234375px;
   left: 231.4886016845703px;
@@ -511,15 +517,15 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .contactuspage-text34 {
   text-decoration: NONE;
 }
- 
+
 .contactuspage-text35 {
   text-decoration: UNDERLINE;
 }
- 
+
 .contactuspage-text37 {
   top: 23.02630615234375px;
   left: 353.47637939453125px;
@@ -535,7 +541,7 @@
   font-stretch: normal;
   text-decoration: underline;
 }
- 
+
 .contactuspage-text38 {
   top: 23.02630615234375px;
   left: 563.833251953125px;
@@ -551,7 +557,7 @@
   font-stretch: normal;
   text-decoration: underline;
 }
- 
+
 .contactuspage-text39 {
   top: 23.026315689086914px;
   left: 1406.65478515625px;
@@ -567,7 +573,7 @@
   font-stretch: normal;
   text-decoration: underline;
 }
- 
+
 .contactuspage-text40 {
   top: 23.026315689086914px;
   left: 1584.353515625px;
@@ -583,7 +589,7 @@
   font-stretch: normal;
   text-decoration: underline;
 }
- 
+
 .contactuspage-group1 {
   top: 233px;
   left: 219px;
@@ -594,7 +600,7 @@
   align-items: flex-start;
   flex-shrink: 1;
 }
- 
+
 .contactuspage-image1 {
   top: 0px;
   left: 0px;
@@ -603,7 +609,7 @@
   position: absolute;
   border-radius: 15px;
 }
- 
+
 .contactuspage-reviews {
   gap: 64px;
   top: 645px;
@@ -623,7 +629,7 @@
   border-radius: 32px;
   background-color: rgba(200, 178, 133, 1);
 }
- 
+
 .contactuspage-frame69 {
   gap: 24px;
   width: 374px;
@@ -633,7 +639,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
- 
+
 .contactuspage-text41 {
   color: rgba(13, 12, 13, 1);
   height: auto;
@@ -647,7 +653,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .contactuspage-frame85 {
   gap: 16px;
   display: flex;
@@ -655,7 +661,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
- 
+
 .contactuspage-user {
   gap: 4px;
   height: 232px;
@@ -665,7 +671,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
- 
+
 .contactuspage-frame79 {
   gap: 4px;
   display: flex;
@@ -673,7 +679,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
- 
+
 .contactuspage-text42 {
   color: rgba(73, 67, 73, 1);
   height: auto;
@@ -687,19 +693,19 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .contactuspage-text43 {
   font-weight: 500;
 }
- 
+
 .contactuspage-text45 {
   font-weight: 500;
 }
- 
+
 .contactuspage-text47 {
   font-weight: 500;
 }
- 
+
 .contactuspage-rectangle18 {
   top: 233px;
   left: 799px;
@@ -707,7 +713,7 @@
   height: 121px;
   position: absolute;
 }
- 
+
 .contactuspage-text50 {
   top: 240px;
   left: 875px;
